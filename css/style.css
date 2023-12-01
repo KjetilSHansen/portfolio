@@ -20,6 +20,8 @@ html{
 /* --- COLORS --- */
 :root{
     --mainBlack: #000000;
+    --mainText: #dddddd;
+    --testForBokser: #ff0000;
 }
 
 
@@ -27,5 +29,32 @@ html{
 /* -- ALL BODY -- */
 body{
     font-family: 'Cormorant Garamond'; 
+}
+
+
+
+/* -- TEMPORARY LOGO -- */
+.KSH-logo{
+    padding: 2rem 3rem;
+    background-color: var(--testForBokser);
+}
+
+
+
+/* -- NAVIGATION -- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--mainBlack);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    color: var(--mainText);
+    font-size: 1.125rem;
 }
 
