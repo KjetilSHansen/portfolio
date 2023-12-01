@@ -49,6 +49,8 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: var(--mainBlack);
+
+    padding: 1rem 2rem 1rem 1rem;
 }
 
 
@@ -56,16 +58,37 @@ ul{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 
     color: var(--mainText);
     font-size: 1.125rem;
+    
 }
 
 
 ul li a{
     text-decoration: none;
     color: var(--mainText);
+}
+
+
+nav ul ::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: red;
+    display: block;
+    left: 0;
+    border-radius: 1rem;
+    opacity: 0;
+    transition: all 0.4s;
+    pointer-events: none;
+}
+
+
+nav ul :hover ::after{
+    opacity: 1;
+    margin-top: 0.5rem;
 }
 
 
