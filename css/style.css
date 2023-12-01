@@ -144,9 +144,11 @@ p{
     flex-direction: column;
     align-items: center;
 
-    border-style: solid;
+
     padding: 2rem;
 }
+
+
 
 
 .nasjonalmuseetContainer{
@@ -167,6 +169,14 @@ p{
 
     margin-top: 1rem;
 }
+
+/* -- TEMPORARY ELLIOT-MOCKUP -- ----- ----- ----- ----- TRANSITION - FORTSETT Å UTFORSKE HER --- */ 
+.elliotContainer :hover{
+    transform: scale(1.2);
+    transition: all 5s;
+    margin-top: 4rem;
+}
+
 
 
 
