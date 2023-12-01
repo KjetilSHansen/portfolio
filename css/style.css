@@ -21,6 +21,7 @@ html{
 :root{
     --mainBlack: #000000;
     --mainText: #dddddd;
+    --secondaryContainers: #fff3dc;
     --testForBokser: #ff0000;
 }
 
@@ -28,12 +29,14 @@ html{
 
 /* -- ALL BODY -- */
 body{
+    margin: 2rem;
     font-family: 'Cormorant Garamond'; 
+
 }
 
 
 
-/* -- TEMPORARY LOGO -- */
+/* -- TEMPORARY OWN LOGO -- */
 .KSH-logo{
     padding: 2rem 3rem;
     background-color: var(--testForBokser);
@@ -58,3 +61,117 @@ ul{
     font-size: 1.125rem;
 }
 
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    text-align: center;
+
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+
+h4{
+    font-size: 1.4rem;
+}
+
+p{
+    font-size: 1.3rem;
+
+}
+
+
+
+
+
+/* -- MY ASSIGNMENTS -- */
+
+.assignmentsContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    margin-top: 8rem;
+}
+
+
+.elliotContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-style: solid;
+    padding: 2rem;
+}
+
+
+.nasjonalmuseetContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-style: solid;
+    padding: 2rem;
+
+}
+
+
+/* -- TEMPORARY ELLIOT-MOCKUP -- */
+.elliotMockup{
+    padding: 15rem 10rem;
+    background-color: var(--testForBokser);
+
+    margin-top: 1rem;
+}
+
+
+/* -- TEMPORARY NASJONALMUSEET-MOCKUP -- */
+.nasjonalmuseetMockup{
+    padding: 15rem 10rem;
+    background-color: var(--testForBokser);
+
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+/* -- ABOUT ME -- */
+
+.omMegContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+
+
+    line-height: 2rem;  /* Hør med Eivind om det stemmer at linjeavstand skal være 1.5 ganger skriftstørrelsen. I dette tilfellet 3rem */
+    margin-top: 8rem;
+    padding: 8rem 4rem;
+    background-color: var(--secondaryContainers);
+}
+
+
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    padding: 4rem;
+    background-color: var(--mainBlack);
+    color: var(--mainText)
+
+}
