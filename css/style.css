@@ -51,6 +51,7 @@ nav{
     background-color: var(--mainBlack);
 }
 
+
 ul{
     list-style: none;
     display: flex;
@@ -62,6 +63,8 @@ ul{
 }
 
 
+
+/* -- ALL H1 -- */
 h1{
     display: flex;
     justify-content: center;
@@ -71,23 +74,27 @@ h1{
     font-size: 3rem;
 }
 
+
+
+/* -- ALL H2 -- */
 h2{
     font-size: 2rem;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 
+
+/* -- ALL H4 -- */
 h4{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 
+
+
+/* -- ALL PARAGRAPHS -- */
 p{
     font-size: 1.3rem;
-
 }
-
-
 
 
 
@@ -119,8 +126,8 @@ p{
 
     border-style: solid;
     padding: 2rem;
-
 }
+
 
 
 /* -- TEMPORARY ELLIOT-MOCKUP -- */
@@ -130,6 +137,7 @@ p{
 
     margin-top: 1rem;
 }
+
 
 
 /* -- TEMPORARY NASJONALMUSEET-MOCKUP -- */
@@ -142,10 +150,6 @@ p{
 
 
 
-
-
-
-
 /* -- ABOUT ME -- */
 
 .omMegContainer{
@@ -154,13 +158,11 @@ p{
     justify-content: space-between;
     gap: 2rem;
 
-
     line-height: 2rem;  /* Hør med Eivind om det stemmer at linjeavstand skal være 1.5 ganger skriftstørrelsen. I dette tilfellet 3rem */
     margin-top: 8rem;
     padding: 8rem 4rem;
     background-color: var(--secondaryContainers);
 }
-
 
 
 .footerContainer{
@@ -173,5 +175,4 @@ p{
     padding: 4rem;
     background-color: var(--mainBlack);
     color: var(--mainText)
-
 }
