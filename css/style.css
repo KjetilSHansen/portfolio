@@ -2,3 +2,9 @@ body{
     background-color: red;
     color: rgb(79, 211, 255);
 }
+
+h2{
+    padding: 40px;
+    background-color: chartreuse;
+    color: black;
+}
