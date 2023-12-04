@@ -20,6 +20,7 @@ html{
 /* --- COLORS --- */
 :root{
     --mainBlack: #000000;
+    --mainGray: #252525;
     --mainText: #dddddd;
     --secondaryContainers: #fff3dc;
     --testForBokser: #ff0000;
@@ -29,17 +30,18 @@ html{
 
 /* -- ALL BODY -- */
 body{
-    margin: 2rem;
-    font-family: 'Cormorant Garamond'; 
+    margin: 1rem;
+    font-family: 'Cormorant Garamond';
+    background-color: var(--mainGray);
 
 }
 
 
 
 /* -- TEMPORARY OWN LOGO -- */
-.KSH-logo{
-    padding: 2rem 3rem;
-    background-color: var(--testForBokser);
+.KSH-logo img{
+    height: 5rem;
+    border-radius: 0.2rem;
 }
 
 
@@ -102,6 +104,8 @@ h1{
     text-align: center;
 
     font-size: 3rem;
+
+    color: var(--mainText);
 }
 
 
@@ -109,7 +113,15 @@ h1{
 /* -- ALL H2 -- */
 h2{
     font-size: 2rem;
-    text-align: center;    
+    text-align: center;
+
+
+}
+
+/* -- ALL H2 -- */
+h2 a{
+    text-decoration: none;
+    color: var(--mainText);
 }
 
 
@@ -117,6 +129,8 @@ h2{
 /* -- ALL H4 -- */
 h4{
     font-size: 1.7rem;
+
+    color: var(--mainText);
 }
 
 
@@ -124,6 +138,8 @@ h4{
 /* -- ALL PARAGRAPHS -- */
 p{
     font-size: 1.3rem;
+
+    color: var(--mainGray);
 }
 
 
@@ -134,59 +150,81 @@ p{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 3rem;
 
-    margin-top: 8rem;
+    margin: 10rem 5rem;
 }
 
 
+
+
+
+/* -- ELLIOT MOCKUP -- */
 .elliotContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: center;
 
     padding: 2rem;
 }
 
+.elliotMockup img{
+    margin-top: 1rem;
+    height: 23rem;
+}
 
 
 
+/* -- NASJONALMUSEET MOCKUP -- */
 .nasjonalmuseetContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
 
-    border-style: solid;
+
+.nasjonalmuseetMockup img{
+    margin-top: 0.5rem;
+    height: 23rem;
+}
+
+
+
+/* -- GUITARCHIVE MOCKUP -- */
+.guitArchiveContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.guitArchiveMockup img{
+    margin-top: 0.5rem;
+    height: 23rem;
+}
+
+
+
+.runContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     padding: 2rem;
 }
 
-
-
-/* -- TEMPORARY ELLIOT-MOCKUP -- */
-.elliotMockup{
-    padding: 15rem 10rem;
-    background-color: var(--testForBokser);
-
+.runMockup img{
     margin-top: 1rem;
-}
-
-/* -- TEMPORARY ELLIOT-MOCKUP -- ----- ----- ----- ----- TRANSITION - FORTSETT Å UTFORSKE HER --- */ 
-.elliotContainer :hover{
-    transform: scale(1.2);
-    transition: all 5s;
-    margin-top: 4rem;
+    height: 23rem;
 }
 
 
 
 
-/* -- TEMPORARY NASJONALMUSEET-MOCKUP -- */
-.nasjonalmuseetMockup{
-    padding: 15rem 10rem;
-    background-color: var(--testForBokser);
-
-    margin-top: 1rem;
-}
 
 
 
