@@ -313,3 +313,20 @@ p{
 
 
 
+
+/* ---------- ---------- ---------- PROGRAMS ---------- ---------- ---------- */
+
+
+.allProgramsContainer img{
+    height: 6rem;
+    border-radius: 1rem;
+
+
+
+}
+
+.allProgramsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
