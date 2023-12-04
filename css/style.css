@@ -330,3 +330,30 @@ p{
     flex-direction: column;
     gap: 4rem;
 }
+
+
+
+
+
+/* ---------- ---------- ---------- MEDIA SCREEAN ---------- ---------- ---------- */
+
+
+@media screen and (max-width: 690px) {
+
+
+    body{
+        background-color: red;
+    }
+
+
+    .nasjonalmuseetMockup img{
+        height: 18rem;
+    }
+
+    .guitArchiveMockup img{
+        height: 18rem;
+    }
+
+
+
+}
