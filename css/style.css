@@ -116,7 +116,7 @@ h1{
 
 /* ---------- ALL H2 ---------- */
 h2{
-    padding: 2rem 0 1rem 0;   /* Endre padding og margin til container fremfor på overskrift */
+    padding: 2rem 0 0 0;   /* Endre padding og margin til container fremfor på overskrift */
     font-size: 2.5rem;
     font-weight: 300;
     text-align: center;
@@ -129,7 +129,7 @@ hr{
     width: 70rem;
     border-style: none;
     border-radius: 2rem;
-    background-color: var(--mainBlack);
+    background-color: var(--mainText);
 
 }
 
@@ -198,7 +198,6 @@ p{
 }
 
 .elliotMockup img{
-
     height: 23rem;
     transition: all 2s;
 }
@@ -324,12 +323,18 @@ p{
 /* ---------- All PROGRAMS ---------- */
 
 
+
+
+.programsContainer{
+    margin-top: 40rem;
+}
+
+
 .allProgramsContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 10rem;
+    gap: 20rem;
 
     color: var(--mainText);
 }
@@ -342,15 +347,16 @@ p{
 }
 
 .allProgramsContainer h2{
-    display: flex;
-    justify-content: left;
-
     color: var(--mainText);
 }
 
 .allProgramsContainer h3{
     font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
 }
+
+
 
 
 
@@ -369,9 +375,15 @@ p{
     gap: 1rem;
 }
 
+.webHeadingContainer hr{
+    width: 100%;
+}
+
 .webProgramsContainer{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -384,27 +396,38 @@ p{
     gap: 1rem;
 }
 
+.uxHeadingContainer hr{
+    width: 100%;
+}
+
 .uxProgramsContainer{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
 
 }
 
 
-/* ---------- MUSIC PROGRAMS ---------- */
-.musicHeadingContainer{
+/* ---------- SOUND PROGRAMS ---------- */
+.soundHeadingContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
 
-.musicProgramsContainer{
+.soundHeadingContainer hr{
+    width: 100%;
+}
+
+.soundProgramsContainer{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
-
 }
 
 
@@ -416,10 +439,16 @@ p{
     gap: 1rem;
 }
 
+.knownProgramsHeadingContainer hr{
+    width: 100%;
+}
+
 
 .knownProgramsContainer{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
