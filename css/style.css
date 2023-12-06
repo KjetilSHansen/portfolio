@@ -319,19 +319,235 @@ p{
 /* ---------- ---------- ---------- PROGRAMS ---------- ---------- ---------- */
 
 
-.allProgramsContainer img{
-    height: 6rem;
-    border-radius: 1rem;
 
 
+/* ---------- All PROGRAMS ---------- */
 
-}
 
 .allProgramsContainer{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10rem;
+
+    color: var(--mainText);
 }
+
+
+.allProgramsContainer img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 1rem;
+}
+
+.allProgramsContainer h2{
+    display: flex;
+    justify-content: left;
+
+    color: var(--mainText);
+}
+
+.allProgramsContainer h3{
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------- WEB PROGRAMS ---------- */
+.webHeadingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.webProgramsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+/* ---------- UX PROGRAMS ---------- */
+.uxHeadingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.uxProgramsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+
+
+/* ---------- MUSIC PROGRAMS ---------- */
+.musicHeadingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.musicProgramsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+
+
+/* ---------- KNOWN PROGRAMS ---------- */
+.knownProgramsHeadingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.knownProgramsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+
+
+
+
+
+
+/* ---------- HTML PROGRAM ---------- */
+.htmlProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- CSS PROGRAM ---------- */
+.cssProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- FIGMA PROGRAM ---------- */
+.figmaProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- JIRA PROGRAM ---------- */
+.jiraProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- AFFINITY DESIGNER PROGRAM ---------- */
+.affinityDesignerProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- AFFINITY PHOTO PROGRAM ---------- */
+.affinityPhotoProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---------- ILLUSTRATOR PROGRAM ---------- */
+.illustratorProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- PHOTOSHOP PROGRAM ---------- */
+.photoShopProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- INDESIGN PROGRAM ---------- */
+.inDesignProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- LOGIC PRO PROGRAM ---------- */
+.logicProProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- PRO TOOLS PROGRAM ---------- */
+.proToolsProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- FINALCUT PRO PROGRAM ---------- */
+.finalCutProProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- JAVASCRIPT PROGRAM ---------- */
+.javaScriptProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- WEBFLOW PROGRAM ---------- */
+.webflowProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- GITHUB PROGRAM ---------- */
+.gitHubProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 
