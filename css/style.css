@@ -640,3 +640,12 @@ p{
 
 
 }
+
+
+
+@media screen and (max-width: 320px) { /* TEST */
+
+    body{
+        background-color: purple;
+    }
+}
