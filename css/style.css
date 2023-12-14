@@ -613,9 +613,10 @@ p{
 
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 6rem;
 
-    padding: 10rem 4rem 10rem 4rem;
+    padding: 10rem 8rem;
 }
 
 
@@ -633,9 +634,10 @@ p{
 .t7IdemyldringContainer{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 6rem;
 
-    padding: 10rem 4rem 10rem 4rem;
+    margin: 10rem 8rem;
 }
 
 .t7IdemyldringContainer h2{
@@ -659,11 +661,11 @@ p{
 /* ---------- ELLIOT ALL RESEARCH ---------- */
 .t7AllResearchContainer{
     background-color: var(--orangeTwo);
-    padding: 10rem 4rem 10rem 4rem;
+    padding: 10rem 8rem;
 
     display: flex;
     flex-direction: column;
-    gap: 10rem;
+    gap: 4rem;
 }
 
 
@@ -702,7 +704,7 @@ p{
 
     display: flex;
     flex-direction: row;
-    gap: 6rem;
+    gap: 4rem;
 }
 
 .t7Undersokelser h2{
@@ -838,7 +840,7 @@ p{
     flex-direction: row;
     gap: 6rem;
 
-    padding: 10rem 4rem 10rem 4rem;
+    padding: 10rem 8rem;
 }
 
 
@@ -852,7 +854,7 @@ p{
 
 
 .t7BrukerreiseIMG IMG{
-    height: 20rem;
+    height: 24rem;
 }
 
 
@@ -866,6 +868,8 @@ p{
 }
 
 .t7PersonasContainer{
+    margin: 10rem 8rem;
+
     padding: 4rem;
     display: flex;
     flex-direction: column;
@@ -1057,6 +1061,10 @@ p{
     gap: 20rem;
 }
 
+.t7Wireframes{
+    margin: 10rem 8rem;
+}
+
 
 .t7Wireframes h2{
     color: var(--yellowTwo);
@@ -1092,7 +1100,10 @@ p{
 
 /* ---------- LOW-FI ---------- */
 
+.t7LowFi{
+    margin: 10rem 8rem 10rem 8rem;
 
+}
 
 
 .t7LowFi h2{
@@ -1132,8 +1143,105 @@ p{
 
 
 
+/* ---------- VÅR LØSNING ---------- */
 
 
+.t7VaarLosningContainer{
+    padding: 10rem 8rem 10rem 8rem;
+}
+
+.t7VaarLosningContainer h2{
+    color: var(--yellowTwo);
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+}
+
+
+.t7VaarLosningContainer h3{
+    color: var(--yellowTwo);
+    margin-bottom: 1rem;
+}
+
+
+.t7VaarLosningContainer ul li{
+    margin-bottom: 1rem;
+}
+
+
+.t7VaarLosningContainer p{
+    color: var(--white);
+
+}
+
+
+.t7VaarLosningContainer ul{
+    color: var(--white);
+}
+
+
+.t7VaarLosningPresentasjonPlussIMG{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.t7VaarLosningPresentasjonPlussIMG img{
+    height: 25.5rem;
+}
+
+
+.t7VaarLosningPresentasjon{
+    background-color: var(--blackGray);
+    padding: 2rem 4rem;
+    gap: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+
+.t7VarLosningMockupTwo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.t7VarLosningMockupTwo img{
+    height: 40rem;
+}
+
+
+.t7VarLosningMockupTwo img{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 48vw;
+}
+
+.t7VarLosningIMGs img{
+    height: 40vw;
+
+    
+
+}
+
+
+.t7VarLosningIMGs{
+
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+
+    justify-content: space-evenly;
+    
+
+}
 
 
 
@@ -1142,6 +1250,8 @@ p{
 
 
 /* ---------- ---------- ---------- ---------- MEDIA SCREEAN ---------- ---------- ---------- ---------- */
+
+
 
 
 
@@ -1193,6 +1303,22 @@ p{
 
     .t7BrukerreiseIMG IMG{
         height: 40vW;
+    }
+
+
+
+
+
+    .t7VaarLosningPresentasjonPlussIMG{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .t7VaarLosningPresentasjonPlussIMG img{
+        height: 50vw;
+
     }
     
 
