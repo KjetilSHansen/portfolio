@@ -1909,6 +1909,180 @@ p{
 
 
 
+/* ---------- MID-FI ---------- */
+
+.t8BrukertesterContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 10rem 10rem;
+}
+
+
+
+.t8BrukertesterContainer h2{
+    color: var(--yellowTwo);
+
+}
+
+.t8BrukertesterContainer h3{
+    color: var(--yellowTwo);
+    font-size: 1.4rem;
+    font-weight: 400;
+
+
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: left;
+}
+
+
+.t8BrukertesterContainer p{
+    color: var(--white);
+}
+
+.t8BrukertesterTilbakemeldinger{
+    border-style: solid;
+    border-color: var(--white);
+    padding: 4rem;
+
+    color: var(--white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.t8BrukertesterTilbakemeldinger ul{
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+
+
+
+
+/* ---------- MID-FI ---------- */
+
+
+.t8HiFiColorContainer{
+    background-color: var(--orangeTwo);
+    padding: 10rem 10rem;
+}
+
+.t8HiFiColorContainer h2{
+    color: var(--yellowTwo);
+    margin-bottom: 1.5rem;
+
+    display: flex;
+    justify-content: left;
+
+}
+
+.t8HiFiColorContainer p{
+    color: var(--white);
+
+
+}
+
+.t8HiFiText{
+    padding: 2rem 3rem;
+    background-color: var(--darkGray);
+
+}
+
+.t8HiFiTextMLink{
+    padding: 2rem 3rem;
+    background-color: var(--darkGray);
+}
+
+
+
+
+.t8HiFiContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+
+
+.hiFiTogetherGuiArchive{
+    height: 50vw;
+}
+
+
+
+
+.t8HiFiPictures{
+    margin-top: 10rem;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+
+}
+
+.t8HiFiPictures h2{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+
+}
+
+.t8HiFiDesktopContainer{
+    padding: 2rem;
+    background-color: var(--darkGray);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.t8HiFiMobilContainer{
+    padding: 2rem;
+    background-color: var(--darkGray);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.t8HiFiMobilFirstIMG{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.t8HiFiMobilSecondIMG{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+
+.hiFiMobileGuitArchive{
+    height: 40vw;
+
+}
 
 
 
@@ -2245,6 +2419,29 @@ p{
 
 
 
+    .t8BrukertesterContainer{
+ 
+        padding: 10rem 2rem;
+    }
+
+
+   
+    .t8HiFiColorContainer{
+    background-color: var(--orangeTwo);
+    padding: 10rem 2rem;
+}
+
+
+.hiFiMobileGuitArchive{
+    height: 60vw;
+
+}
+
+
+
+
+
+
    
 
 
@@ -2284,6 +2481,14 @@ p{
     .runMockup{
         height: 30rem;
     }
+
+
+    .hiFiMobileGuitArchive{
+        height: 100vw;
+    
+    }
+
+
 
 
 
