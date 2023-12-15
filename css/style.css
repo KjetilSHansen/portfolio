@@ -1407,7 +1407,7 @@ p{
 
 .t8ResearchColorContainer{
     background-color: var(--orangeTwo);
-    padding: 20rem 8rem;
+    padding: 10rem 8rem 0rem 8rem;
     
 }
 
@@ -1499,7 +1499,7 @@ p{
 
 .t8IntervjuColorContainer{
     background-color: var(--orangeTwo);
-    padding: 20rem 8rem;
+    padding: 3rem 8rem 10rem 8rem;
     
     
 }
@@ -1559,6 +1559,241 @@ p{
 }
 
 
+
+
+
+
+
+
+
+/* ---------- PERSONAS EMIL ---------- */
+
+
+.emilInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.emilMainInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.emilMainInfoUl{
+    background-color: var(--blackGray);
+    padding: 2rem 4rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.emilMainInfo ul{
+    color: var(--yellowTwo);
+    list-style: none;
+    text-decoration: none;
+}
+
+.emilMainInfo ul span{
+    color: var(--white);
+}
+
+.spanOneEmil{
+    margin-left: 7rem;
+}
+
+.spanTwoEmil{
+    margin-left: 7rem;
+}
+
+
+.spanThreeEmil{
+    margin-left: 3rem;
+}
+
+.spanFourEmil{
+    margin-left: 6rem;
+}
+
+.emilBio{
+    background-color: var(--blackGray);
+    padding: 2rem 4rem;
+}
+
+
+
+.emilPersonlighetHobbyer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+
+.emilPersonlighet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--blackGray);
+    width: 50vw;
+    padding: 2rem;
+}
+
+.emilHobbyer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--blackGray);
+    width: 50vw;
+    padding: 2rem;
+}
+
+
+.emilMaalFrustrasjon{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.emilMaal{
+    background-color: var(--blackGray);
+    width: 50vw;
+    padding: 2rem;
+
+}
+
+
+
+/* .emilMaalContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+} */
+
+
+
+
+.emilFrustrasjon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--blackGray);
+    width: 50vw;
+    padding: 2rem;
+}
+
+
+
+
+.emilSituasjonPlattformer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+
+}
+
+
+
+.emilSituasjon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--blackGray);
+    width: 50vw;
+    padding: 2rem;
+}
+
+
+.emilPlattformer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--blackGray);
+    width: 50vw;
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+
+
+/* ---------- BRUKERREISE ---------- */
+
+.t7BrukerreiseMoodboardColorContainer{
+    background-color: var(--orangeTwo);
+    padding: 10rem 8rem 10rem 8rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.t7BrukerreiseMoodboardColorContainer h2{
+    color: var(--yellowTwo);
+}
+
+.t7BrukerreiseMoodboardColorContainer p{
+    color: var(--white);
+
+}
+
+
+
+
+.t8BrukerreiseContainer h2{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.t8BrukerreiseContainer{
+    background-color: var(--darkGray);
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+
+
+
+
+
+
+
+.t8MoodboardContainer h2{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.t8MoodboardContainer{
+    background-color: var(--darkGray);
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+
+}
 
 
 
@@ -1802,6 +2037,35 @@ p{
 
     .t8IntervjuIMGFirstContainer img{
         width: 30vw;
+    }
+
+
+
+
+
+
+
+    
+    .t8BrukerreiseContainer{
+        flex-wrap: wrap;
+    }
+    
+    
+    .t8MoodboardContainer{
+        flex-wrap: wrap;
+    }
+
+    .t7BrukerreiseMoodboardColorContainer{
+        background-color: palevioletred;
+        padding: 10rem 4rem 10rem 4rem;
+    }
+
+    .t8BrukerreiseIMG img{
+        height: 50vw;
+    }
+
+    .t8MoodboardIMG img{
+        height: 41vw;
     }
 
 
