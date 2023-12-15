@@ -1772,8 +1772,7 @@ p{
 
 
 
-
-
+/* ---------- MOODBOARD ---------- */
 
 
 
@@ -1796,6 +1795,116 @@ p{
 }
 
 
+
+/* ---------- PROBLEMSTILLING ---------- */
+
+.t8ProblemstillingMVPContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    padding: 10rem 10rem;
+
+}
+
+.t8ProblemstillingMVPContainer h2{
+    color: var(--white);
+    margin-bottom: 2rem;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.t8ProblemstillingMVPContainer p{
+    color: var(--yellowTwo);
+    border-style: solid;
+    border-color: var(--white);
+    padding: 3rem;
+
+
+}
+
+
+
+
+
+
+
+/* ---------- LOW-FI ---------- */
+
+.t7LowFiMidFiColorContainer{
+    background-color: var(--orangeTwo);
+    padding: 10rem 8rem 10rem 8rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+
+}
+
+.t7LowFiMidFiColorContainer h2{
+    color: var(--yellowTwo);
+    margin-bottom: 2rem;
+}
+
+.t7LowFiMidFiColorContainer p{
+    color: var(--white);
+
+}
+
+
+
+
+.t8LowFiContainer h2{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.t8LowFiContainer{
+    background-color: var(--darkGray);
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.t8LowFiIMG img{
+    height: 32vw;
+
+}
+
+
+
+/* ---------- MID-FI ---------- */
+
+
+
+.t8MidFiContainer h2{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.t8MidFiContainer{
+    background-color: var(--darkGray);
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+
+}
+
+
+.t8MidFiIMG img{
+    height: 32vw;
+
+}
 
 
 
@@ -1888,6 +1997,58 @@ p{
     .t8ResearchContainer{
         justify-content: center;
     }
+
+
+
+    .t8BrukerreiseContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .t8MoodboardContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+    .t8LowFiContainer{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+
+    .t8LowFiContainer{
+        flex-wrap: wrap;
+    }
+
+    .t8LowFiIMG img{
+        height: 50vw;
+    }
+
+
+
+
+
+    .t8MidFiContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .t8MidFiContainer{
+        flex-wrap: wrap;
+    }
+
+    .t8MidFiIMG img{
+        height: 50vw;
+    
+    }
+
+  
 
 
 
@@ -2067,6 +2228,21 @@ p{
     .t8MoodboardIMG img{
         height: 41vw;
     }
+
+
+
+
+    .t8ProblemstillingMVPContainer{
+  
+        padding: 10rem 2rem;
+    
+    }
+
+
+    .t7LowFiMidFiColorContainer{
+        padding: 10rem 2rem;
+    }
+
 
 
    
