@@ -1760,6 +1760,7 @@ p{
     align-items: center;
     background-color: var(--blackGray);
     padding: 2rem;
+    padding-bottom: 4rem;
 }
 
 
@@ -2020,20 +2021,35 @@ p{
 
 .t8HiFiColorContainer p{
     color: var(--white);
-
-
 }
+
 
 .t8HiFiText{
     padding: 2rem 3rem;
-    background-color: var(--darkGray);
+    background-color: var(--blackGray);
+}
 
+.t8HiFiTextMLink a{
+    padding: 2rem;
+    text-decoration: none;
+    color: var(--darkGray);
 }
 
 .t8HiFiTextMLink{
-    padding: 2rem 3rem;
-    background-color: var(--darkGray);
+    background-color: var(--yellowTwo);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-style: solid;
+    border-color: var(--blackGray);
 }
+
+
+
+
 
 
 
@@ -2224,6 +2240,20 @@ p{
         width: 30vw;
     }
 
+    .emilPlattformer{
+        margin-bottom: 10rem;
+    }
+
+
+
+    .t8LowFiContainer{
+        padding: 2rem;
+
+    }
+
+
+
+
   
     
 
@@ -2299,8 +2329,9 @@ p{
     }
 
     .t8LowFiIMG img{
-        height: 50vw;
+        height: 70vw;
     }
+
 
 
 
@@ -2309,6 +2340,7 @@ p{
     .t8MidFiContainer{
         display: flex;
         justify-content: center;
+        padding: 2rem;
     }
 
     .t8MidFiContainer{
@@ -2316,7 +2348,7 @@ p{
     }
 
     .t8MidFiIMG img{
-        height: 50vw;
+        height: 74vw;
     
     }
 
@@ -2764,16 +2796,15 @@ p{
     }
 
     .t7BrukerreiseMoodboardColorContainer{
-        background-color: red;
         padding: 10rem 2rem;
     }
 
     .t8BrukerreiseIMG img{
-        height: 50vw;
+        height: 60vw;
     }
 
     .t8MoodboardIMG img{
-        height: 41vw;
+        height: 55vw;
     }
 
 
@@ -2849,6 +2880,9 @@ p{
     .hiFiMobileGuitArchive{
         height: 60vw;
     }
+
+
+    
 
 
 
