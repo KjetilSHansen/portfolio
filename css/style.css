@@ -706,7 +706,6 @@ p{
 }
 
 
-
 /* ---------- ELLIOT UNDERSØKELSER ---------- */
 .t7Undersokelser{
     background: var(--darkGray);
@@ -2258,6 +2257,7 @@ p{
         padding: 2rem;
     }
 
+
     .t7Undersokelser{
         padding: 2rem;
     }
@@ -2382,10 +2382,12 @@ p{
         flex-wrap: wrap;
         justify-content: center;
         padding: 10rem 2rem;
+        gap: 3rem;
     }
 
+
     .t7OppgaveIMG img{
-        height: 80vw;
+        height: 100vw;
     }
     
 
@@ -2394,7 +2396,7 @@ p{
     }
 
     .t7IdemyldringIMG img{
-        height: 50vw;
+        height: 56vw;
     }
 
     .t7Research{
@@ -2406,14 +2408,14 @@ p{
         height: 30vh;
     }
 
+  
+
     .t7Research{
         display: flex;
         flex-wrap: wrap;
     }
 
-    .t7ResearchIMG img{
-        height: 40vw;
-    }
+
 
 
     .t7Undersokelser{
@@ -2422,7 +2424,8 @@ p{
     }
 
     .t7Form img{
-        height: 30vw; 
+        margin-top: 1rem;
+        height: 35vw; 
     }
 
 
