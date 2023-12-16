@@ -2489,12 +2489,43 @@ p{
     }
 
 
+    .martinPersonlighet{
+        padding: 2rem 0rem;
+    }
+
+    .martinHobbyer{
+        padding: 2rem 0rem;
+    }
+
+    .martinMaal{
+        padding: 2rem 0rem;
+    }
+
+    .martinUtfordringer{
+        padding: 2rem 0rem;
+    }
+
+    .martinBehov{
+        padding: 2rem 0rem;
+    }
+
+    .martinPlattformer{
+        padding: 2rem 0rem;
+
+    }
+
+
+
+
+
+
+
 
     .martinPersonlighetHobbyer{
         flex-wrap: wrap;
         gap: 0rem;
-
     }
+
 
     .martinMaalUtfordringer{
         flex-wrap: wrap;
@@ -2504,7 +2535,6 @@ p{
     .martinBehovPlattformer{
         flex-wrap: wrap;
         gap: 0rem;
-    
 
     }
 
