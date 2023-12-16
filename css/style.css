@@ -1684,7 +1684,6 @@ p{
     margin-left: 7rem;
 }
 
-
 .spanThreeEmil{
     margin-left: 3rem;
 }
@@ -1692,6 +1691,9 @@ p{
 .spanFourEmil{
     margin-left: 6rem;
 }
+
+
+
 
 .emilBio{
     background-color: var(--blackGray);
@@ -2250,6 +2252,25 @@ p{
     }
 
 
+    .emilInfo{
+        flex-direction: column;
+    }
+
+    .emilMainInfo{
+        display: flex;
+        align-items: center;
+        background-color: var(--blackGray);
+        padding-top: 2rem;
+    }
+
+    .emilMainInfo img{
+        width: 30vw;
+    }
+
+  
+    
+
+
 
 
 
@@ -2665,6 +2686,15 @@ p{
 
 
 
+
+
+
+
+
+
+
+
+
 /* ----- ----- ----- TEMA 8 - MEDIASCREEN 1100PX ----- ----- ----- */
 
 
@@ -2799,6 +2829,31 @@ p{
     }
 
 
+
+
+
+
+ /* ----- Personas Emil ----- */
+    .emilMainInfo img{
+        width: 45vw;
+    }
+
+    .emilBio{
+        padding: 2rem 2rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
     .t7LowFiMidFiColorContainer{
         padding: 10rem 2rem;
     }
@@ -2812,16 +2867,15 @@ p{
 
 
    
-    .t8HiFiColorContainer{
-    background-color: var(--orangeTwo);
-    padding: 10rem 2rem;
-}
+        .t8HiFiColorContainer{
+        background-color: var(--orangeTwo);
+        padding: 10rem 2rem;
+    }
 
 
-.hiFiMobileGuitArchive{
-    height: 60vw;
-
-}
+    .hiFiMobileGuitArchive{
+        height: 60vw;
+    }
 
 
 
