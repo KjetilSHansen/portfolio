@@ -865,42 +865,27 @@ p{
 
 
 
-/* ---------- BRUKERREISE ---------- */
+/* ---------- BRUKERREISE - ELLIOT ---------- */
 
 .t7BrukerreiseContainer{
     background-color: var(--orangeOne);
-
     display: flex;
     flex-direction: row;
     gap: 6rem;
-
     padding: 10rem 8rem;
 }
-
 
 .t7BrukerreiseText h2{
     display: flex;
     justify-content: left;
-
     color: var(--black);
     margin-bottom: 1rem;
 }
-
-
-
-
-
-.t7BrukerreiseContainer{
-    display: flex;
-    justify-content: center;
-}
-
 
 .t7BrukerreiseIMG{
     display: flex;
     align-items: center;
 }
-
 
 .t7BrukerreiseIMG IMG{
     height: 25vw;
@@ -1789,7 +1774,7 @@ p{
 
 .t7BrukerreiseMoodboardColorContainer{
     background-color: var(--orangeTwo);
-    padding: 10rem 8rem 10rem 8rem;
+    padding: 10rem 8rem;
 
     display: flex;
     flex-direction: column;
@@ -1805,15 +1790,10 @@ p{
 
 }
 
-
-
-
 .t8BrukerreiseContainer h2{
     display: flex;
     justify-content: left;
 }
-
-
 
 .t8BrukerreiseContainer{
     background-color: var(--darkGray);
@@ -1826,9 +1806,9 @@ p{
 
 
 
+
+
 /* ---------- MOODBOARD ---------- */
-
-
 
 .t8MoodboardContainer h2{
     display: flex;
@@ -2784,8 +2764,8 @@ p{
     }
 
     .t7BrukerreiseMoodboardColorContainer{
-        background-color: palevioletred;
-        padding: 10rem 4rem 10rem 4rem;
+        background-color: red;
+        padding: 10rem 2rem;
     }
 
     .t8BrukerreiseIMG img{
@@ -2830,8 +2810,7 @@ p{
         justify-content: center;
     }
 
-    .emilSituasjon{
-    }
+ 
 
 
     
