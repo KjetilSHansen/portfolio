@@ -628,6 +628,10 @@ p{
     margin-bottom: 1rem;
 }
 
+.t7OppgaveIMG img{
+    height: 40vw;
+}
+
 
 
 /* ---------- ELLIOT IDEMYLDRING ---------- */
@@ -635,7 +639,7 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 6rem;
+    gap: 4rem;
 
     margin: 10rem 8rem;
 }
@@ -650,6 +654,10 @@ p{
 
 .t7IdemyldringContainer p{
     color: var(--white);
+}
+
+.t7IdemyldringIMG img{
+    height: 25vw;
 }
 
 
@@ -672,7 +680,7 @@ p{
 
     display: flex;
     flex-direction: row;
-    gap: 6rem;
+    gap: 4rem;
 }
 
 .t7Research h2{
@@ -687,8 +695,14 @@ p{
     color: var(--white);
 }
 
-.elliotResearchIMG{
-    height: 20rem;
+.t7ResearchIMG{
+    display: flex;
+    align-items: center;
+}
+
+
+.t7ResearchIMG img{
+    height: 20vw;
 }
 
 
@@ -702,6 +716,9 @@ p{
     flex-direction: row;
     gap: 4rem;
 }
+
+
+
 
 .t7Undersokelser h2{
     display: flex;
@@ -734,6 +751,7 @@ p{
     margin-bottom: 1rem;
 }
 
+
 .t7KeyPoints ul{
     color: var(--white);
     margin-top: 2rem;
@@ -742,6 +760,22 @@ p{
     flex-direction: column;
     gap: 0.5rem;
 }
+
+
+.t7FormIMG{
+    display: flex;
+    justify-content: center;
+}
+
+.t7Form img{
+    height: 20vw;
+}
+
+
+
+
+
+
 
 
 /* ---------- ELLIOT INTERVJUER ---------- */
@@ -2139,6 +2173,37 @@ p{
 @media screen and (max-width: 1230px){
 
 
+
+    .t7IdemyldringContainer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .t7IdemyldringIMG img{
+        height: 40vw;
+    }
+
+    .t7AllResearchContainer{
+        padding: 10rem 2rem;
+    }
+
+    .t7Research{
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .t7Undersokelser{
+        padding: 2rem;
+    }
+
+
+    
+
+
+
+
+
+
   
     .t8ResearchColorContainer{
     padding: 10rem 2rem;
@@ -2222,6 +2287,9 @@ p{
     
     }
 
+
+
+
   
 
 
@@ -2233,6 +2301,37 @@ p{
 
 
 @media screen and (max-width: 1100px) {
+
+
+
+
+    .temaOppgaveContainer{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10rem 2rem;
+    }
+
+    .t7OppgaveIMG img{
+        height: 80vw;
+    }
+    
+
+    .t7IdemyldringContainer{
+        margin: 10rem 2rem;
+    }
+
+    .t7IdemyldringIMG img{
+        height: 50vw;
+    }
+
+    .t7Research{
+        justify-content: center;
+    }
+
+
+    .t7ResearchIMG img{
+        height: 30vh;
+    }
 
     .t7Research{
         background-color: blue;
@@ -2251,13 +2350,23 @@ p{
         flex-wrap: wrap;
     }
 
-     /* Funker ikke, men det har noe å gjøre med at diven den er inni ikke skaleres ned med siden. */
-
-    /* .elliotFormIMG{
-        height: 30vh;  
-    } */
+    .t7Form img{
+        height: 30vw; 
+    }
 
 
+
+    .t7Intervjuer{
+        padding: 2rem;
+        gap: 4rem;
+
+        flex-wrap: wrap;
+    }
+
+
+
+
+ 
     .t7ProblemstillingContainer{
         padding: 4rem;
         background-color: red;
