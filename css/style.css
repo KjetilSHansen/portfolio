@@ -736,6 +736,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     
 }
 
@@ -744,6 +745,7 @@ p{
     display: flex;
     flex-direction: column;
     gap: 4rem;     
+
 }
 
 .t7UndersokelserSecondText p{
@@ -2396,6 +2398,12 @@ p{
     .t7IdemyldringIMG img{
         height: 56vw;
     }
+
+
+    .t7AllResearchContainer{
+        padding: 10rem 1rem;
+    }
+
 
     .t7Research{
         justify-content: center;
