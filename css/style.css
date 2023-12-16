@@ -47,6 +47,8 @@ html{
 body{
     font-family: 'poppins';
     background-color: var(--darkGray);
+
+
 }
 
 
@@ -2557,6 +2559,7 @@ p{
     .martinPersonlighetHobbyer{
         flex-wrap: wrap;
         gap: 0rem;
+        padding-top: 2rem;
     }
 
 
@@ -2568,12 +2571,14 @@ p{
     .martinBehovPlattformer{
         flex-wrap: wrap;
         gap: 0rem;
+        padding-bottom: 2rem;
 
     }
 
     .martinSecondInfo{
         gap: 0rem;
         background-color: var(--blackGray);
+
     }
 
 
@@ -2661,6 +2666,10 @@ p{
 
     
     
+
+    .t7VaarLosningContainer{
+        padding: 5rem 3rem;
+    }
 
 
 
@@ -2876,7 +2885,7 @@ p{
     }
 
     .t7WireframesIMGs{
-        background: red;
+        background-color: var(--darkGray);
     }
 
     .t7WireframesIMGs img{
