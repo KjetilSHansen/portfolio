@@ -262,6 +262,8 @@ p{
     transition: all 2s;
 }
 
+
+
 /* .guitArchiveMockup :hover{
     height: 26rem;
     transition: all 6s;
@@ -1342,25 +1344,31 @@ p{
 
 
 
-/* ---------- ---------- ---------- ---------- GUITARCHIVE PANGE ---------- ---------- ---------- ---------- */
+/* ---------- ---------- ---------- ----------  TEMAOPPGAVE 8 - GUITARCHIVE - DESKTOP  ---------- ---------- ---------- ---------- */
 
 
 
 
-/* ---------- CRAZY8 ---------- */
+/* ---------- TEMAOPPGAVE 8 - DESKTOP  ---------- */
+
+.t8OppgaveIMG img{
+    height: 30vw;
+}
+
+
+
+/* ---------- CRAZY8 - DESKTOP  ---------- */
 
 .t8Crazy8Container{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 6rem;
-
     margin: 10rem 8rem;
 }
 
 .t8Crazy8Container h2{
     color: var(--yellowTwo);
-
     display: flex;
     justify-content: left;
     margin-bottom: 1rem;
@@ -1370,34 +1378,26 @@ p{
     color: var(--white);
 }
 
-
 .t8Crazy8IMG img{
     height: 30vw;
 }
 
 
 
-
-
-
-
-/* ---------- SORTERING ---------- */
+/* ---------- SORTERING - DESKTOP  ---------- */
 
 .t8sorteringContainer{
     display: flex;
     flex-direction: row;
     margin: 20rem 8rem;
     gap: 4rem;
-
 }
-
 
 .t8sorteringContainerOne{
     display: flex;
     flex-direction: column;
     gap: 4rem;
 }
-
 
 .t8sorteringContainerOne h2{
     color: var(--yellowTwo);
@@ -1406,7 +1406,6 @@ p{
     justify-content: left;
     margin-bottom: 1rem;
 }
-
 
 .t8sorteringContainerOne p{
     color: var(--white);
@@ -1417,11 +1416,9 @@ p{
     flex-direction: column;
 }
 
-
 .t8sorteringIMGOne img{
     height: 25vw;
 }
-
 
 .t8sorteringIMGTwo{
     display: flex;
@@ -1430,17 +1427,13 @@ p{
     margin-top: 2rem;
 }
 
-
 .t8sorteringIMGTwo img{
     height: 14vw;
 }
 
 
 
-
-
-/* ---------- SKISSER ---------- */
-
+/* ---------- SKISSER - DESKTOP ---------- */
 
 .t8SkisserContainer{
     display: flex;
@@ -1453,7 +1446,6 @@ p{
     color: var(--white);
 }
 
-
 .t8SkisserContainerOne ul{
     color: var(--white);
 }
@@ -1465,27 +1457,19 @@ p{
     margin-bottom: 1rem;
 }
 
-
 .t8SkisserContainerOne{
     display: flex;
     flex-direction: column;
     gap: 6rem;
-}
-
-.t8SkisserContainerOne{
-    display: flex;
-    flex-direction: column;
     justify-content: left;
     margin-bottom: 1rem;
 }
-
 
 .t8SkisserTextTwo ul{
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
 }
-
 
 .t8SkisserContainerTwo{
     display: flex;
@@ -1495,15 +1479,13 @@ p{
     margin-top: 1rem;
 }
 
-
 .t8SkisserContainerTwo img{
     height: 20vw;
 }
 
 
 
-
-/* ---------- RESEARCH ---------- */
+/* ---------- RESEARCH - DESKTOP ---------- */
 
 .t8ResearchColorContainer{
     background-color: var(--orangeTwo);
@@ -1595,13 +1577,11 @@ p{
 
 
 
-/* ---------- INTERVJU ---------- */
+/* ---------- INTERVJU - DESKTOP ---------- */
 
 .t8IntervjuColorContainer{
     background-color: var(--orangeTwo);
-    padding: 3rem 8rem 10rem 8rem;
-    
-    
+    padding: 3rem 8rem 10rem 8rem;    
 }
 
 .intervjuMainContainer{
@@ -1611,11 +1591,6 @@ p{
     flex-direction: row;
     gap: 3rem;
 }
-
-
-
-
-
 
 .intervjuMainContainer H2{
     color: var(--yellowTwo);
@@ -1639,8 +1614,8 @@ p{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-
 }
+
 
 .t8IntervjuIMGSecondContainer img{
     width: 41vw;
@@ -2285,14 +2260,9 @@ p{
     
 
 
-
-
-
-
   
     .t8ResearchColorContainer{
     padding: 10rem 2rem;
-    background-color: blue;
     }
     
     
@@ -2388,7 +2358,7 @@ p{
 @media screen and (max-width: 1100px) {
 
 
-
+/* ----- ----- ----- TEMA 7 - MEDIASCREEN 1100PX ----- ----- ----- */
 
     .temaOppgaveContainer{
         flex-wrap: wrap;
@@ -2695,15 +2665,28 @@ p{
 
 
 
+/* ----- ----- ----- TEMA 8 - MEDIASCREEN 1100PX ----- ----- ----- */
 
+
+
+/* ----- Tema 8 ----- */
+
+    .t8OppgaveIMG img{
+        height: 60vw;
+    }
+
+
+/* ----- Crazy 8s ----- */
 
     .t8Crazy8Container{
         flex-wrap: wrap;
         justify-content: center;
+        margin: 5rem 2rem;
+        
     }
 
     .t8Crazy8IMG img{
-        height: 60vw;
+        height: 80vw;
     }
 
 
@@ -2711,6 +2694,7 @@ p{
     
 
 
+/* ----- Sortering av idéer ----- */
 
     .t8sorteringIMGOne{
         display: flex;
@@ -2718,45 +2702,48 @@ p{
     }
 
     .t8sorteringIMGOne img{
-        height: 40vw;
+        height: 50vw;
 
     }
 
     .t8sorteringContainer{
         flex-wrap: wrap;
         justify-content: center;
+        margin: 10rem 2rem;
     }
     
     .t8sorteringIMGTwo img{
-        height: 30vw;
+        height: 37vw;
     }
 
     .t8sorteringContainer{
         gap: 0rem;
-    
+
     }
 
 
 
+/* ----- Skisser ----- */
 
     .t8SkisserContainer{
         flex-wrap: wrap;
         justify-content: center;
+
+        margin: 10rem 2rem;
+        gap: 2rem;
     }
 
     .t8SkisserContainerTwo{
         margin-top: 1rem;
     }
     
-    
     .t8SkisserContainerTwo img{
-        height: 40vw;
+        height: 60vw;
     }
     
 
 
-
-
+/* ----- Intervju ----- */
     
     .intervjuMainContainer{
         flex-wrap: wrap;
@@ -2768,25 +2755,22 @@ p{
         padding: 2rem;
     }
 
-    .t8IntervjuIMGSecondContainer img{
-        width: 60vw;
-    }
-
     .t8IntervjuIMGFirstContainer img{
-        width: 30vw;
+        width: 36vw;
+    }
+
+    .t8IntervjuIMGSecondContainer img{
+        width: 75vw;
     }
 
 
 
 
+ /* ----- Brukerreise ----- */
 
-
-
-    
     .t8BrukerreiseContainer{
         flex-wrap: wrap;
     }
-    
     
     .t8MoodboardContainer{
         flex-wrap: wrap;
@@ -2807,6 +2791,7 @@ p{
 
 
 
+ /* ----- Problemstilling ----- */
 
     .t8ProblemstillingMVPContainer{
         padding: 10rem 2rem;
