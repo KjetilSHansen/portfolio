@@ -816,7 +816,7 @@ p{
 
 
 .t7ProblemstillingContainer{
-    padding: 22rem;
+    padding: 16rem;
 }
 
 
@@ -824,6 +824,17 @@ p{
     color: var(--white);
 }
 
+.t7ProblemstillingSecondText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-style: solid;
+    border-color: var(--white);
+
+    margin-top: 10rem;
+    padding: 4rem;
+}
 
 
 .t7ProblemstillingFirstText{
@@ -839,19 +850,6 @@ p{
 }
 
 
-
-.t7ProblemstillingSecondText{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    border-style: solid;
-    border-color: var(--white);
-
-    margin-top: 10rem;
-    padding: 4rem;
-
-}
 
 .t7ProblemstillingSecondText p{
     color: var(--yellowTwo);
@@ -883,9 +881,23 @@ p{
 }
 
 
-.t7BrukerreiseIMG IMG{
-    height: 24rem;
+.t7BrukerreiseContainer{
+    display: flex;
+    justify-content: center;
 }
+
+
+.t7BrukerreiseIMG{
+    display: flex;
+    align-items: center;
+}
+
+
+.t7BrukerreiseIMG IMG{
+    height: 25vw;
+}
+
+
 
 
 
@@ -894,12 +906,11 @@ p{
 
 
 .t7PersonasText{
-    padding: 22rem;
+    padding: 10rem 16rem;
 }
 
 .t7PersonasContainer{
-    margin: 10rem 8rem;
-
+    margin: 0rem 8rem;
     padding: 4rem;
     display: flex;
     flex-direction: column;
@@ -2197,6 +2208,21 @@ p{
     }
 
 
+
+
+    .t7PersonasContainer{
+        margin: 0rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .t7PersonasText{
+        padding: 10rem 6rem;
+    }
+
+
     
 
 
@@ -2334,18 +2360,16 @@ p{
     }
 
     .t7Research{
-        background-color: blue;
         display: flex;
         flex-wrap: wrap;
     }
 
-    .elliotResearchIMG{
-        height: 35vw;
+    .t7ResearchIMG img{
+        height: 40vw;
     }
 
 
     .t7Undersokelser{
-        background-color: red;
         display: flex;
         flex-wrap: wrap;
     }
@@ -2359,28 +2383,48 @@ p{
     .t7Intervjuer{
         padding: 2rem;
         gap: 4rem;
-
         flex-wrap: wrap;
     }
 
-
-
-
  
     .t7ProblemstillingContainer{
-        padding: 4rem;
-        background-color: red;
+        padding: 9rem 2rem;
     }
+
+
+    .t7ProblemstillingSecondText{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        padding: 2rem;
+    }
+
+    
+
 
 
     .t7BrukerreiseContainer{
         display: flex;
         flex-wrap: wrap;
-        background: purple;
+
+        gap: 4rem;
+        padding: 5rem 2rem;
     }
 
+
+    .t7BrukerreiseIMG{
+        justify-content: center;
+        align-items: center;
+    }
+
+
     .t7BrukerreiseIMG IMG{
-        height: 40vW;
+        height: 50vW;
+    }
+
+
+
+    .t7PersonasText{
+        padding: 5rem 2rem;
     }
 
 
@@ -2516,7 +2560,6 @@ p{
 
 
     .t8ProblemstillingMVPContainer{
-  
         padding: 10rem 2rem;
     
     }
@@ -2570,10 +2613,6 @@ p{
 @media screen and (max-width: 690px) {
 
 
-    body{
-        background-color: red;
-    }
-
     .elliotMockup img{
         height: 20rem;
     }
@@ -2596,6 +2635,7 @@ p{
         height: 100vw;
     
     }
+
 
 
 
