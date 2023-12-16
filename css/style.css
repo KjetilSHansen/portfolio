@@ -1200,13 +1200,25 @@ p{
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: space-evenly;
+
+    background-color: var(--darkGray);
+    padding: 2rem 0rem;
     
 }
 
 
-.t7LowFiIMGs IMG{
-    height: 25vw; /* ---------- Kanskje VW er bedre enn Rem ---------- */
+.lowFiOne{
+    height: 19vw;
 }
+
+.lowFiTwo{
+    height: 40vw;
+}
+
+.lowFiThree{
+    height: 38vw;
+}
+
 
 
 
@@ -2541,12 +2553,83 @@ p{
     .martinSecondInfo{
         gap: 0rem;
         background-color: var(--blackGray);
-
-    
-    
     }
 
 
+    .t7DesignprosessContainer{
+        padding: 10rem 0rem;
+    }
+    
+    .t7Wireframes{
+        margin: 2rem;
+    }
+
+    .t7WireframesText{
+        background-color: var(--darkGray);
+        margin-bottom: 2rem;
+        padding: 2rem 2rem;
+    }
+
+    .t7WireframesIMGs{
+        background-color: var(--darkGray);
+        padding: 2rem 0rem;
+    }
+
+
+
+
+
+    /* .t7LowFi{
+        background-color: red;
+    } */
+
+    .t7LowFi{
+        margin: 2rem;
+    
+    }
+
+    .t7LowFiText{
+        background-color: red;
+        padding: 2rem;
+    }
+
+    .t7LowFiIMGs{
+        background-color: var(--darkGray);
+        padding: 2rem 0rem;
+    }
+
+
+    /* .t7LowFiIMGs{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: space-evenly;
+        
+    } */
+    
+    
+    /* .t7LowFiIMGs{
+        height: 40vw;
+
+        background-color: pink;
+    }  */
+
+
+
+  
+
+    .lowFiOne{
+        height: 20vw;
+    }
+    
+    .lowFiTwo{
+        height: 42vw;
+    }
+    
+    .lowFiThree{
+        height: 40vw;
+    }
+    
 
 
     
