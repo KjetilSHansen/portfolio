@@ -1023,6 +1023,8 @@ p{
     justify-content: space-evenly;
     gap: 1rem;
 
+    text-align: center;
+
 
 }
 
@@ -1038,6 +1040,7 @@ p{
     width: 50vw;
     padding: 2rem;
 
+
    
 }
 
@@ -1049,6 +1052,7 @@ p{
     background-color: var(--blackGray);
     width: 50vw;
     padding: 2rem;
+
 }
 
 
@@ -1057,6 +1061,11 @@ p{
     flex-direction: row;
     justify-content: space-evenly;
     gap: 1rem;
+
+    text-align: center;
+
+
+    
 }
 
 .martinMaal{
@@ -1089,6 +1098,7 @@ p{
     justify-content: space-evenly;
     gap: 1rem;
 
+    text-align: center;
 }
 
 
@@ -2480,8 +2490,10 @@ p{
 
     /* --- MARTIN --- */
 
+
+
     .t7PersonasText{
-        padding: 5rem 2rem;
+        padding: 3rem 1rem;
     }
        
     .martinFlexWrap{
