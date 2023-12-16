@@ -1163,8 +1163,7 @@ p{
     justify-content: space-evenly;
 
     background-color: var(--darkGray);
-    padding: 2rem 0rem;
-    
+    padding: 2rem 0rem; 
 }
 
 /* ---------- LOW-FI ---------- */
@@ -2401,19 +2400,17 @@ p{
 
     .t7Research{
         justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 
     .t7ResearchIMG img{
-        height: 30vh;
+        height: 27vh;
     }
 
   
 
-    .t7Research{
-        display: flex;
-        flex-wrap: wrap;
-    }
 
 
 
@@ -2468,7 +2465,7 @@ p{
 
 
     .t7BrukerreiseIMG IMG{
-        height: 50vW;
+        height: 55vW;
     }
 
 
@@ -2565,6 +2562,8 @@ p{
         padding: 10rem 0rem;
     }
     
+
+
     .t7Wireframes{
         margin: 2rem;
     }
@@ -2577,8 +2576,23 @@ p{
 
     .t7WireframesIMGs{
         background-color: var(--darkGray);
-        padding: 2rem 0rem;
+        padding: 2rem;
     }
+
+
+
+
+
+    
+    /* .t7WireframesIMGs{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: space-evenly;
+    
+        background-color: var(--darkGray);
+        padding: 2rem 0rem; 
+    } */
 
 
 
@@ -2838,6 +2852,15 @@ p{
     .hiFiMobileGuitArchive{
         height: 100vw;
     
+    }
+
+    .t7WireframesIMGs{
+        background: red;
+    }
+
+    .t7WireframesIMGs img{
+        height: 100vw;
+       
     }
 
 
