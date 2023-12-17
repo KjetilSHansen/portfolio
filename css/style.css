@@ -130,10 +130,8 @@ h1{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 2.7rem;
-
-    /* color: var(--white); */
-    color: pink;
+    font-size: 2.6rem;
+    color: var(--yellowOne);
 
     margin-top: 24rem;
     margin-bottom: 24rem;
@@ -332,7 +330,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0rem 30vw 4rem 30vw;
+    margin: 10rem 30vw 4rem 30vw;
     padding: 0.5rem;
     background-color: var(--yellowTwo);
     border-radius: 2rem;
