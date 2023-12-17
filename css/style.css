@@ -192,8 +192,7 @@ p{
 
 
 .introduksjon h1{
-    margin-top: 20rem;
-    margin-bottom: 1rem;
+    margin: 20rem 2rem 0rem 2rem;
     color: var(--yellowOne);
 
 }
@@ -202,7 +201,7 @@ p{
 .introduksjon p{
     color: var(--white);
     padding: 1rem;
-    margin: 0rem 22rem 10rem;
+    margin: 0rem 22vw 10rem;
 }
 
 
@@ -217,7 +216,6 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-
     padding-top: 10rem;
 }
 
@@ -225,7 +223,7 @@ p{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 5rem;
+
 
     margin: 2rem 5rem 10rem;
     padding: 2rem;
@@ -341,7 +339,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0rem 24vw 4rem 24vw;
+    margin: 0rem 30vw 4rem 30vw;
     padding: 1rem;
     background-color: var(--yellowOne);
     border-radius: 2rem;
@@ -2416,6 +2414,15 @@ p{
 
 
 /* ----- ----- ----- TEMA 7 - MEDIASCREEN 1100PX ----- ----- ----- */
+
+
+
+.introduksjon p{
+    margin: 0rem 10vw 5rem;
+}
+
+
+
 
     .temaOppgaveContainer{
         flex-wrap: wrap;
