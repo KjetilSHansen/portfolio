@@ -251,15 +251,11 @@ p{
 
 
 
-
-
-
 /* ---------- FOOTER ---------- */
 .footerContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     gap: 3rem;
     background-color: var(--blackGray);
     color: var(--white);
@@ -272,8 +268,6 @@ p{
     text-decoration: none;
     list-style: none;
     align-items: center;
-
-
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -285,15 +279,13 @@ p{
 }
 
 .footerContainer ul li a{
-    
     color: var(--yellowOne);
 }
-
-
 
 .footerContainer h2{
     color: var(--yellowOne);
 }
+
 
 
 
