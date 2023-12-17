@@ -1,28 +1,23 @@
 
-
 /* ---------- FONT ---------- */
-
-/* Cormorant Garamond - HTML = font-family: 'Cormorant Garamond'; */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Round&display=swap');
-
-/* Bodoni Moda */
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Round&display=swap');
 
 /* Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Round&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 
+
+
 /*  ------- FJERN DETTE --------
 
-nasjonalmuseetHoverBox 
-nasjonalmuseetContainer
-nasjonalmuseetMockup
 
 runHoverBox
 runContainer
 runMockup
 */
+
+
+
 
 
 
@@ -50,29 +45,21 @@ html{
 
 
 
-/* ---------- ---------- ---------- ---------- INDEX PAGE ---------- ---------- ---------- ---------- */
-
-
-
-
 /* ---------- ALL BODY ---------- */
 body{
     font-family: 'poppins';
     background-color: var(--darkGray);
-
-
 }
+
 
 
 /* ---------- MY NAME ---------- */
 .myName a{
     font-size: 1.5rem;
     font-weight: 200;
-
     text-decoration: none;
     color: var(--yellowOne);
 }
-
 
 
 
@@ -85,43 +72,19 @@ nav{
     font-weight: 100;
 }
 
-
 nav ul{
     list-style: none;
     display: flex;
     align-items: center;
     gap: 2rem;
-    color: var(--white);
-   
+    color: var(--white);   
 }
-
 
 nav ul li a{
     text-decoration: none;
     color: var(--white);
     font-size: 1.125rem;  
 }
-
-
-/* nav ul ::after{
-    content: '';
-    height: 2px;
-    width: 100%;
-    background-color: red;
-    display: block;
-    left: 0;
-    border-radius: 1rem;
-    opacity: 0;
-    transition: all 0.4s;
-    pointer-events: none;
-}
-
-
-nav ul :hover ::after{
-    opacity: 1;
-    margin-top: 0.5rem;
-} */
-
 
 
 
@@ -132,22 +95,20 @@ h1{
     text-align: center;
     font-size: 2.6rem;
     color: var(--yellowOne);
-
     margin-top: 24rem;
     margin-bottom: 24rem;
 }
 
 
+
 /* ---------- ALL H2 ---------- */
 h2{
-    padding: 2rem 0 0 0;   /* Endre padding og margin til container fremfor på overskrift */
+    padding: 2rem 0 0 0;
     font-size: 2rem;
     font-weight: 300;
     text-align: center;
     color: var(--white);
-
 }
-
 
 
 
@@ -178,11 +139,14 @@ p{
     font-size: 1.2rem;
     line-height: 2rem;
     color: var(--darkGray);
-
     font-weight: 200;
 }
 
 
+
+
+
+/* ---------- ---------- ---------- ---------- INDEX PAGE ---------- ---------- ---------- ---------- */
 
 
 
@@ -213,8 +177,6 @@ p{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
-
     margin: 2rem 5rem 10rem;
     padding: 1rem;
 }
@@ -225,14 +187,13 @@ p{
 }
 
 
+
 /* ---------- ELLIOT MOCKUP ---------- */
 .elliotContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    /* background-color: rgb(71, 71, 71); */
     padding: 3rem 6rem;
     border-radius: 1rem;
 }
@@ -242,34 +203,10 @@ p{
     transition: all 2s;
 }
 
-/* .elliotMockup :hover{
+.elliotMockup :hover{
     height: 26rem;
     transition: all 6s;
-} */
-
-
-
-/* ---------- NASJONALMUSEET MOCKUP ---------- */
-.nasjonalmuseetContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    /* background-color: rgb(71, 71, 71); */
-    padding: 3rem 2rem;
-    border-radius: 1rem;
 }
-
-.nasjonalmuseetMockup img{
-    height: 23rem;
-    transition: all 2s;
-}
-
-/* .nasjonalmuseetMockup :hover{
-    height: 26rem;
-    transition: all 6s;
-} */
 
 
 
@@ -279,8 +216,6 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    /* background-color: rgb(71, 71, 71); */
     padding: 3rem 2rem;
     border-radius: 1rem;
 }
@@ -290,42 +225,14 @@ p{
     transition: all 2s;
 }
 
-
-
-/* .guitArchiveMockup :hover{
+.guitArchiveMockup :hover{
     height: 26rem;
     transition: all 6s;
-} */
-
-
-
-/* ---------- RUN MOCKUP ---------- */
-.runContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    /* background-color: rgb(71, 71, 71); */
-    padding: 3rem 6rem;
-    border-radius: 1rem;
 }
-
-.runMockup img{
-    height: 23rem;
-    transition: all 2s;
-}
-
-/* .runMockup :hover{
-    height: 26rem;
-    transition: all 6s;
-} */
 
 
 
 /* ---------- TOPPKNAPP ---------- */
-
-
 .toppKnapp{
     display: flex;
     justify-content: center;
