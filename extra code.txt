@@ -414,3 +414,43 @@
     flex-direction: column;
     align-items: center;
 }
+
+
+
+
+/* 
+
+  TROR IKKE DISSE GÅR TIL NOE - Pesonlighet er ikke på Emil, bare Martin
+
+.emilPersonlighetHobbyer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.emilPersonlighet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: red;
+    width: 50vw;
+    padding: 2rem;
+}
+
+.emilHobbyer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--blackGray);
+    width: 50vw;
+    padding: 2rem;
+}
+
+.emilMaalContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+} */
