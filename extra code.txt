@@ -454,3 +454,16 @@
     flex-direction: row;
     gap: 2rem;
 } */
+
+
+
+
+/* ----- ----- MEDIASCREEN 690PX ----- ----- */
+
+@media screen and (max-width: 320px) {
+    /* TEST */
+
+    body {
+        background-color: purple;
+    }
+}

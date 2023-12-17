@@ -1,4 +1,3 @@
-
 /* ---------- FONT ---------- */
 
 /* Poppins */
@@ -6,31 +5,15 @@
 
 
 
-
-
-/*  ------- FJERN DETTE --------
-
-
-runHoverBox
-runContainer
-runMockup
-*/
-
-
-
-
-
-
-
 /* ---------- ALL HTML ---------- */
-html{
+html {
     font-size: 100%;
 }
 
 
 
 /* ---------- COLORS ---------- */
-:root{
+:root {
     --black: #030303;
     --blackGray: #1D1D1D;
     --darkGray: #2A2A2A;
@@ -46,7 +29,7 @@ html{
 
 
 /* ---------- ALL BODY ---------- */
-body{
+body {
     font-family: 'poppins';
     background-color: var(--darkGray);
 }
@@ -54,7 +37,7 @@ body{
 
 
 /* ---------- MY NAME ---------- */
-.myName a{
+.myName a {
     font-size: 1.5rem;
     font-weight: 200;
     text-decoration: none;
@@ -64,7 +47,7 @@ body{
 
 
 /* ---------- NAVIGATION ---------- */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     background-color: var(--blackGray);
@@ -72,24 +55,24 @@ nav{
     font-weight: 100;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     display: flex;
     align-items: center;
     gap: 2rem;
-    color: var(--white);   
+    color: var(--white);
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: var(--white);
-    font-size: 1.125rem;  
+    font-size: 1.125rem;
 }
 
 
 
 /* ---------- ALL H1 ---------- */
-h1{
+h1 {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -102,7 +85,7 @@ h1{
 
 
 /* ---------- ALL H2 ---------- */
-h2{
+h2 {
     padding: 2rem 0 0 0;
     font-size: 2rem;
     font-weight: 300;
@@ -113,12 +96,12 @@ h2{
 
 
 /* ---------- ALL H3 ---------- */
-h3{
+h3 {
     font-size: 1.5rem;
     text-align: center;
 }
 
-h3 a{
+h3 a {
     text-decoration: none;
     color: var(--white);
     font-weight: 200;
@@ -127,7 +110,7 @@ h3 a{
 
 
 /* ---------- ALL H4 ---------- */
-h4{
+h4 {
     font-size: 1.7rem;
     color: var(--white);
 }
@@ -135,7 +118,7 @@ h4{
 
 
 /* ---------- ALL PARAGRAPHS ---------- */
-p{
+p {
     font-size: 1.2rem;
     line-height: 2rem;
     color: var(--darkGray);
@@ -151,12 +134,12 @@ p{
 
 
 /* ---------- INTRODUKSJON ---------- */
-.introduksjon h1{
+.introduksjon h1 {
     margin: 17rem 2rem 0rem 2rem;
     color: var(--yellowOne);
 }
 
-.introduksjon p{
+.introduksjon p {
     color: var(--white);
     padding: 1rem;
     margin: 0rem 22vw 20rem;
@@ -165,7 +148,7 @@ p{
 
 
 /* ---------- MY ASSIGNMENTS ---------- */
-.assignmentsContainer{
+.assignmentsContainer {
     background-color: var(--darkGray);
     display: flex;
     flex-direction: column;
@@ -173,7 +156,7 @@ p{
     padding-top: 5rem;
 }
 
-.allAssignmentsContainer{
+.allAssignmentsContainer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -181,7 +164,7 @@ p{
     padding: 1rem;
 }
 
-.assignmentsContainer h2{
+.assignmentsContainer h2 {
     color: var(--yellowOne);
     font-weight: 600;
 }
@@ -189,7 +172,7 @@ p{
 
 
 /* ---------- ELLIOT MOCKUP ---------- */
-.elliotContainer{
+.elliotContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,12 +181,12 @@ p{
     border-radius: 1rem;
 }
 
-.elliotMockup img{
+.elliotMockup img {
     height: 23rem;
     transition: all 2s;
 }
 
-.elliotMockup :hover{
+.elliotMockup :hover {
     height: 26rem;
     transition: all 6s;
 }
@@ -211,7 +194,7 @@ p{
 
 
 /* ---------- GUITARCHIVE MOCKUP ---------- */
-.guitArchiveContainer{
+.guitArchiveContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,12 +203,12 @@ p{
     border-radius: 1rem;
 }
 
-.guitArchiveMockup img{
+.guitArchiveMockup img {
     height: 23rem;
     transition: all 2s;
 }
 
-.guitArchiveMockup :hover{
+.guitArchiveMockup :hover {
     height: 26rem;
     transition: all 6s;
 }
@@ -233,7 +216,7 @@ p{
 
 
 /* ---------- TOPPKNAPP ---------- */
-.toppKnapp{
+.toppKnapp {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,7 +226,7 @@ p{
     border-radius: 2rem;
 }
 
-.toppKnapp a{
+.toppKnapp a {
     font-size: 1.5rem;
     color: var(--blackGray);
     text-decoration: none;
@@ -252,7 +235,7 @@ p{
 
 
 /* ---------- FOOTER ---------- */
-.footerContainer{
+.footerContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -264,7 +247,7 @@ p{
 
 
 
-.footerContainer ul{
+.footerContainer ul {
     text-decoration: none;
     list-style: none;
     align-items: center;
@@ -273,16 +256,16 @@ p{
     gap: 2rem;
 }
 
-.footerContainer ul li{
+.footerContainer ul li {
     display: flex;
     gap: 1rem;
 }
 
-.footerContainer ul li a{
+.footerContainer ul li a {
     color: var(--yellowOne);
 }
 
-.footerContainer h2{
+.footerContainer h2 {
     color: var(--yellowOne);
 }
 
@@ -295,39 +278,39 @@ p{
 
 
 /* ---------- OM MEG ---------- */
-.omMegSection h1{
+.omMegSection h1 {
     margin-bottom: 10rem;
     margin-top: 10rem;
 }
 
-.omMegSection{
+.omMegSection {
     padding: 2rem;
     margin: 4rem;
 }
 
-.omMegContainer{
+.omMegContainer {
     display: flex;
     flex-direction: row;
     gap: 4rem;
 }
 
-.omMegContainer h2{
+.omMegContainer h2 {
     display: flex;
     justify-content: left;
     color: var(--yellowOne);
 }
 
-.omMegContainer p{
+.omMegContainer p {
     color: var(--white);
 }
 
-.omMegText{
+.omMegText {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.omMegIMG img{
+.omMegIMG img {
     height: 40vw;
     margin-bottom: 10rem;
 }
@@ -341,12 +324,12 @@ p{
 
 
 /* ---------- KONTAKTINFORMASJKON ---------- */
-.kontaktinformasjonContainer h1{
+.kontaktinformasjonContainer h1 {
     margin-bottom: 5rem;
     margin-top: 10rem;
 }
 
-.kontaktinformasjonText{
+.kontaktinformasjonText {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -357,11 +340,11 @@ p{
     border-style: solid;
 }
 
-.kontaktinformasjonText h2{
+.kontaktinformasjonText h2 {
     color: var(--yellowOne);
 }
 
-.kontaktinformasjonText ul{
+.kontaktinformasjonText ul {
     text-decoration: none;
     list-style: none;
     align-items: center;
@@ -370,12 +353,12 @@ p{
     gap: 2rem;
 }
 
-.kontaktinformasjonText ul li{
+.kontaktinformasjonText ul li {
     display: flex;
     gap: 1rem;
 }
 
-.kontaktinformasjonText ul li a{    
+.kontaktinformasjonText ul li a {
     color: var(--yellowOne);
 }
 
@@ -388,7 +371,7 @@ p{
 
 
 /* ---------- ELLIOT - TEMAOPPGAVE 7 ---------- */
-.temaOppgaveContainer{
+.temaOppgaveContainer {
     background-color: var(--orangeOne);
     display: flex;
     flex-direction: row;
@@ -397,21 +380,21 @@ p{
     padding: 10rem 8rem;
 }
 
-.temaOppgaveText h2{
+.temaOppgaveText h2 {
     display: flex;
     justify-content: left;
     color: var(--black);
     margin-bottom: 1rem;
 }
 
-.t7OppgaveIMG img{
+.t7OppgaveIMG img {
     height: 40vw;
 }
 
 
 
 /* ---------- ELLIOT - IDEMYLDRING ---------- */
-.t7IdemyldringContainer{
+.t7IdemyldringContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -419,25 +402,25 @@ p{
     margin: 10rem 8rem;
 }
 
-.t7IdemyldringContainer h2{
+.t7IdemyldringContainer h2 {
     color: var(--yellowTwo);
     display: flex;
     justify-content: left;
     margin-bottom: 1rem;
 }
 
-.t7IdemyldringContainer p{
+.t7IdemyldringContainer p {
     color: var(--white);
 }
 
-.t7IdemyldringIMG img{
+.t7IdemyldringIMG img {
     height: 25vw;
 }
 
 
 
 /* ---------- ELLIOT - ALL RESEARCH ---------- */
-.t7AllResearchContainer{
+.t7AllResearchContainer {
     background-color: var(--orangeTwo);
     padding: 10rem 8rem;
     display: flex;
@@ -448,7 +431,7 @@ p{
 
 
 /* ---------- ELLIOT - RESEARCH ---------- */
-.t7Research{
+.t7Research {
     background: var(--darkGray);
     padding: 4rem;
     display: flex;
@@ -456,30 +439,30 @@ p{
     gap: 4rem;
 }
 
-.t7Research h2{
+.t7Research h2 {
     display: flex;
     justify-content: left;
     margin-bottom: 1rem;
     color: var(--yellowTwo);
 }
 
-.t7Research p{
+.t7Research p {
     color: var(--white);
 }
 
-.t7ResearchIMG{
+.t7ResearchIMG {
     display: flex;
     align-items: center;
 }
 
-.t7ResearchIMG img{
+.t7ResearchIMG img {
     height: 20vw;
 }
 
 
 
 /* ---------- ELLIOT - UNDERSØKELSER ---------- */
-.t7Undersokelser{
+.t7Undersokelser {
     background: var(--darkGray);
     padding: 4rem;
     display: flex;
@@ -487,35 +470,35 @@ p{
     gap: 4rem;
 }
 
-.t7Undersokelser h2{
+.t7Undersokelser h2 {
     display: flex;
     justify-content: left;
     margin-bottom: 1rem;
     color: var(--yellowTwo);
 }
 
-.t7Undersokelser p{
+.t7Undersokelser p {
     color: var(--white);
 }
 
-.t7UndersokelserFirstText{
+.t7UndersokelserFirstText {
     display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;
 }
 
-.t7UndersokelserSecondText{
+.t7UndersokelserSecondText {
     display: flex;
     flex-direction: column;
     gap: 4rem;
 }
 
-.t7UndersokelserSecondText p{
+.t7UndersokelserSecondText p {
     color: var(--yellowTwo);
     margin-bottom: 1rem;
 }
 
-.t7KeyPoints ul{
+.t7KeyPoints ul {
     color: var(--white);
     margin-top: 2rem;
     display: flex;
@@ -523,19 +506,19 @@ p{
     gap: 0.5rem;
 }
 
-.t7FormIMG{
+.t7FormIMG {
     display: flex;
     justify-content: center;
 }
 
-.t7Form img{
+.t7Form img {
     height: 20vw;
 }
 
 
 
 /* ---------- ELLIOT - INTERVJUER ---------- */
-.t7Intervjuer{
+.t7Intervjuer {
     background: var(--darkGray);
     padding: 4rem;
     display: flex;
@@ -543,14 +526,14 @@ p{
     gap: 6rem;
 }
 
-.t7Intervjuer h2{
+.t7Intervjuer h2 {
     display: flex;
     justify-content: left;
     margin-bottom: 1rem;
     color: var(--yellowTwo);
 }
 
-.t7IntervjuerFirstText p{
+.t7IntervjuerFirstText p {
     color: var(--white);
 }
 
@@ -558,22 +541,22 @@ p{
     color: var(--yellowTwo);
 }
 
-.t7IntervjuerSecondText li{
+.t7IntervjuerSecondText li {
     margin-bottom: 1rem;
 }
 
 
 
 /* ---------- ELLIOT - PROBLEMSTILLING ---------- */
-.t7ProblemstillingContainer{
+.t7ProblemstillingContainer {
     padding: 16rem;
 }
 
-.t7ProblemstillingContainer p{
+.t7ProblemstillingContainer p {
     color: var(--white);
 }
 
-.t7ProblemstillingSecondText{
+.t7ProblemstillingSecondText {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -583,18 +566,18 @@ p{
     padding: 4rem;
 }
 
-.t7ProblemstillingFirstText{
+.t7ProblemstillingFirstText {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.t7ProblemstillingFirstText h2{
+.t7ProblemstillingFirstText h2 {
     color: var(--yellowTwo);
     margin-bottom: 1rem;
 }
 
-.t7ProblemstillingSecondText p{
+.t7ProblemstillingSecondText p {
     color: var(--yellowTwo);
     font-weight: 300;
 }
@@ -602,7 +585,7 @@ p{
 
 
 /* ---------- ELLIOT - BRUKERREISE ---------- */
-.t7BrukerreiseContainer{
+.t7BrukerreiseContainer {
     background-color: var(--orangeOne);
     display: flex;
     flex-direction: row;
@@ -610,30 +593,30 @@ p{
     padding: 10rem 8rem;
 }
 
-.t7BrukerreiseText h2{
+.t7BrukerreiseText h2 {
     display: flex;
     justify-content: left;
     color: var(--black);
     margin-bottom: 1rem;
 }
 
-.t7BrukerreiseIMG{
+.t7BrukerreiseIMG {
     display: flex;
     align-items: center;
 }
 
-.t7BrukerreiseIMG IMG{
+.t7BrukerreiseIMG IMG {
     height: 25vw;
 }
 
 
 
 /* ---------- ELLIOT - PERSONAS ---------- */
-.t7PersonasText{
+.t7PersonasText {
     padding: 10rem 16rem;
 }
 
-.t7PersonasContainer{
+.t7PersonasContainer {
     margin: 0rem 8rem;
     padding: 4rem;
     display: flex;
@@ -641,46 +624,46 @@ p{
     gap: 1rem;
 }
 
-.t7PersonasContainer h2{
+.t7PersonasContainer h2 {
     color: var(--yellowTwo);
     margin-bottom: 1rem;
 }
 
-.t7PersonasContainer h3{
+.t7PersonasContainer h3 {
     color: var(--yellowTwo);
     margin-bottom: 0rem;
 }
 
-.t7PersonasContainer p{
+.t7PersonasContainer p {
     color: var(--white);
 }
 
 
 
 /* ---------- ELLIOT - PERSONAS MARTIN ---------- */
-.martinInfo{
+.martinInfo {
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
 
-.martinMainInfo{
+.martinMainInfo {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.martinMainInfo IMG{
+.martinMainInfo IMG {
     width: 28vw;
 }
 
-.martinSecondInfo{
+.martinSecondInfo {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.martinMainInfoUl{
+.martinMainInfoUl {
     background-color: var(--blackGray);
     padding: 2rem 4rem;
     display: flex;
@@ -690,23 +673,23 @@ p{
     align-items: center;
 }
 
-.martinMainInfo ul{
+.martinMainInfo ul {
     color: var(--yellowTwo);
     list-style: none;
     text-decoration: none;
 }
 
-.martinMainInfo ul span{
+.martinMainInfo ul span {
     color: var(--white);
     margin-left: 2rem;
 }
 
-.martinBio{
+.martinBio {
     background-color: var(--blackGray);
     padding: 2rem;
 }
 
-.martinPersonlighetHobbyer{
+.martinPersonlighetHobbyer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -714,7 +697,7 @@ p{
     text-align: center;
 }
 
-.martinPersonlighet{
+.martinPersonlighet {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -723,7 +706,7 @@ p{
     padding: 2rem;
 }
 
-.martinHobbyer{
+.martinHobbyer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -732,7 +715,7 @@ p{
     padding: 2rem;
 }
 
-.martinMaalUtfordringer{
+.martinMaalUtfordringer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -740,7 +723,7 @@ p{
     text-align: center;
 }
 
-.martinMaal{
+.martinMaal {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -749,7 +732,7 @@ p{
     padding: 2rem;
 }
 
-.martinUtfordringer{
+.martinUtfordringer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -758,7 +741,7 @@ p{
     padding: 2rem;
 }
 
-.martinBehovPlattformer{
+.martinBehovPlattformer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -766,7 +749,7 @@ p{
     text-align: center;
 }
 
-.martinBehov{
+.martinBehov {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -775,7 +758,7 @@ p{
     padding: 2rem;
 }
 
-.martinPlattformer{
+.martinPlattformer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -786,7 +769,7 @@ p{
 
 
 /* ---------- ELLIOT - WIREFRAMES ---------- */
-.t7DesignprosessContainer{
+.t7DesignprosessContainer {
     background-color: var(--orangeOne);
     padding: 10rem 4rem;
     display: flex;
@@ -794,59 +777,27 @@ p{
     gap: 20rem;
 }
 
-.t7Wireframes{
+.t7Wireframes {
     margin: 10rem 8rem;
 }
 
-.t7Wireframes h2{
+.t7Wireframes h2 {
     color: var(--yellowTwo);
     margin-bottom: 1rem;
 }
 
-.t7Wireframes p{
+.t7Wireframes p {
     color: var(--white);
     margin-bottom: 2rem;
 }
 
-.t7WireframesText{
+.t7WireframesText {
     background-color: var(--darkGray);
     margin-bottom: 2rem;
     padding: 2rem 4rem;
 }
 
-.t7WireframesIMGs{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: space-evenly;
-    background-color: var(--darkGray);
-    padding: 2rem 0rem; 
-}
-
-
-
-/* ---------- ELLIOT - LOW-FI ---------- */
-.t7LowFi{
-    margin: 10rem 8rem 10rem 8rem;
-}
-
-.t7LowFi h2{
-    color: var(--yellowTwo);
-    margin-bottom: 1rem;
-}
-
-.t7LowFi p{
-    color: var(--white);
-    margin-bottom: 2rem;
-}
-
-.t7LowFiText{
-    background-color: var(--darkGray);
-    margin-bottom: 2rem;
-    padding: 2rem 4rem;
-}
-
-.t7LowFiIMGs{
+.t7WireframesIMGs {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -855,59 +806,91 @@ p{
     padding: 2rem 0rem;
 }
 
-.lowFiOne{
+
+
+/* ---------- ELLIOT - LOW-FI ---------- */
+.t7LowFi {
+    margin: 10rem 8rem 10rem 8rem;
+}
+
+.t7LowFi h2 {
+    color: var(--yellowTwo);
+    margin-bottom: 1rem;
+}
+
+.t7LowFi p {
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+
+.t7LowFiText {
+    background-color: var(--darkGray);
+    margin-bottom: 2rem;
+    padding: 2rem 4rem;
+}
+
+.t7LowFiIMGs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    background-color: var(--darkGray);
+    padding: 2rem 0rem;
+}
+
+.lowFiOne {
     height: 19vw;
 }
 
-.lowFiTwo{
+.lowFiTwo {
     height: 40vw;
 }
 
-.lowFiThree{
+.lowFiThree {
     height: 38vw;
 }
 
 
 
 /* ---------- ELLIOT - VÅR LØSNING ---------- */
-.t7VaarLosningContainer{
+.t7VaarLosningContainer {
     padding: 10rem 8rem 10rem 8rem;
 }
 
-.t7VaarLosningContainer h2{
+.t7VaarLosningContainer h2 {
     color: var(--yellowTwo);
     margin-bottom: 5rem;
 }
 
-.t7VaarLosningContainer h3{
+.t7VaarLosningContainer h3 {
     color: var(--yellowTwo);
     margin-bottom: 1rem;
 }
 
-.t7VaarLosningContainer ul li{
+.t7VaarLosningContainer ul li {
     margin-bottom: 1rem;
 }
 
-.t7VaarLosningContainer p{
+.t7VaarLosningContainer p {
     color: var(--white);
 }
 
-.t7VaarLosningContainer ul{
+.t7VaarLosningContainer ul {
     color: var(--white);
 }
 
-.t7VaarLosningPresentasjonPlussIMG{
+.t7VaarLosningPresentasjonPlussIMG {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 2rem;
 }
 
-.t7VaarLosningPresentasjonPlussIMG img{
+.t7VaarLosningPresentasjonPlussIMG img {
     height: 25.5rem;
 }
 
-.t7VaarLosningPresentasjon{
+.t7VaarLosningPresentasjon {
     background-color: var(--blackGray);
     padding: 2rem 4rem;
     gap: 4rem;
@@ -916,26 +899,26 @@ p{
     justify-content: left;
 }
 
-.t7VarLosningMockupTwo{
+.t7VarLosningMockupTwo {
     display: flex;
     justify-content: center;
 }
 
-.t7VarLosningMockupTwo img{
+.t7VarLosningMockupTwo img {
     height: 40rem;
 }
 
-.t7VarLosningMockupTwo img{
+.t7VarLosningMockupTwo img {
     margin-top: 4rem;
     margin-bottom: 4rem;
     height: 48vw;
 }
 
-.t7VarLosningIMGs img{
+.t7VarLosningIMGs img {
     height: 40vw;
 }
 
-.t7VarLosningIMGs{
+.t7VarLosningIMGs {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -943,20 +926,20 @@ p{
     justify-content: space-evenly;
 }
 
-.t7HiFiTextMLink a{
+.t7HiFiTextMLink a {
     text-decoration: none;
     color: var(--blackGray);
     text-decoration: underline;
     font-weight: 400;
 }
 
-.t7HiFiTextMLink{
+.t7HiFiTextMLink {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     background-color: var(--yellowTwo);
 }
 
-.t7HiFiTextMLink h3{
+.t7HiFiTextMLink h3 {
     padding: 1rem;
     margin-bottom: 1rem;
 }
@@ -968,14 +951,14 @@ p{
 
 
 /* ---------- GUITARCHIVE - TEMAOPPGAVE 8 ---------- */
-.t8OppgaveIMG img{
+.t8OppgaveIMG img {
     height: 30vw;
 }
 
 
 
 /* ---------- GUITARCHIVE - CRAZY8 ---------- */
-.t8Crazy8Container{
+.t8Crazy8Container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -983,18 +966,18 @@ p{
     margin: 10rem 8rem;
 }
 
-.t8Crazy8Container h2{
+.t8Crazy8Container h2 {
     color: var(--yellowTwo);
     display: flex;
     justify-content: left;
     margin-bottom: 1rem;
 }
 
-.t8Crazy8Container p{
+.t8Crazy8Container p {
     color: var(--white);
 }
 
-.t8Crazy8IMG img{
+.t8Crazy8IMG img {
     height: 30vw;
 }
 
@@ -1002,76 +985,76 @@ p{
 
 /* ---------- GUITARCHIVE - SORTERING  ---------- */
 
-.t8sorteringContainer{
+.t8sorteringContainer {
     display: flex;
     flex-direction: row;
     margin: 20rem 8rem;
     gap: 4rem;
 }
 
-.t8sorteringContainerOne{
+.t8sorteringContainerOne {
     display: flex;
     flex-direction: column;
     gap: 4rem;
 }
 
-.t8sorteringContainerOne h2{
+.t8sorteringContainerOne h2 {
     color: var(--yellowTwo);
     display: flex;
     justify-content: left;
     margin-bottom: 1rem;
 }
 
-.t8sorteringContainerOne p{
+.t8sorteringContainerOne p {
     color: var(--white);
 }
 
-.t8sorteringText{
+.t8sorteringText {
     display: flex;
     flex-direction: column;
 }
 
-.t8sorteringIMGOne img{
+.t8sorteringIMGOne img {
     height: 25vw;
 }
 
-.t8sorteringIMGTwo{
+.t8sorteringIMGTwo {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin-top: 2rem;
 }
 
-.t8sorteringIMGTwo img{
+.t8sorteringIMGTwo img {
     height: 14vw;
 }
 
 
 
 /* ---------- GUITARCHIVE - SKISSER ---------- */
-.t8SkisserContainer{
+.t8SkisserContainer {
     display: flex;
     flex-direction: row;
     margin: 20rem 8rem;
     gap: 4rem;
 }
 
-.t8SkisserContainerOne p{
+.t8SkisserContainerOne p {
     color: var(--white);
 }
 
-.t8SkisserContainerOne ul{
+.t8SkisserContainerOne ul {
     color: var(--white);
 }
 
-.t8SkisserContainerOne h2{
+.t8SkisserContainerOne h2 {
     color: var(--yellowTwo);
     display: flex;
     justify-content: left;
     margin-bottom: 1rem;
 }
 
-.t8SkisserContainerOne{
+.t8SkisserContainerOne {
     display: flex;
     flex-direction: column;
     gap: 6rem;
@@ -1079,13 +1062,13 @@ p{
     margin-bottom: 1rem;
 }
 
-.t8SkisserTextTwo ul{
+.t8SkisserTextTwo ul {
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
 }
 
-.t8SkisserContainerTwo{
+.t8SkisserContainerTwo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1093,79 +1076,79 @@ p{
     margin-top: 1rem;
 }
 
-.t8SkisserContainerTwo img{
+.t8SkisserContainerTwo img {
     height: 20vw;
 }
 
 
 
 /* ---------- GUITARCHIVE - RESEARCH ---------- */
-.t8ResearchColorContainer{
+.t8ResearchColorContainer {
     background-color: var(--orangeTwo);
     padding: 10rem 8rem 0rem 8rem;
 }
 
-.t8ResearchContainer{
+.t8ResearchContainer {
     display: flex;
     flex-direction: row;
     gap: 4rem;
     background-color: var(--darkGray);
-    padding: 3rem; 
+    padding: 3rem;
 }
 
-.t8ResearchContainer h2{
+.t8ResearchContainer h2 {
     color: var(--yellowTwo);
     display: flex;
     justify-content: left;
     margin-bottom: 1rem;
 }
 
-.t8ResearchContainer p{
+.t8ResearchContainer p {
     color: var(--white);
     margin-bottom: 1rem;
 }
 
-.t8ResearchContainerTwo p{
+.t8ResearchContainerTwo p {
     color: var(--yellowTwo);
     margin-top: 2rem;
 }
 
-.t8ResearchContainerOne{
+.t8ResearchContainerOne {
     display: flex;
     flex-direction: column;
     gap: 7rem;
 }
 
-.t8ResearchTextTwo p{
+.t8ResearchTextTwo p {
     color: var(--yellowTwo);
 }
 
-.t8ResearchTextTwo{
+.t8ResearchTextTwo {
     display: flex;
     flex-direction: column;
 }
 
-.t8ResearchIMGOne{
+.t8ResearchIMGOne {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.t8ResearchIMGOne img{
+.t8ResearchIMGOne img {
     width: 39vw;
 }
 
-.t8ResearchIMGTwo{
+.t8ResearchIMGTwo {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
 }
 
-.t8ResearchIMGTwo img{
+.t8ResearchIMGTwo img {
     width: 30vw;
 }
 
-.t8ResearchContainerTwo{
+.t8ResearchContainerTwo {
     display: flex;
     flex-direction: column;
 }
@@ -1173,12 +1156,12 @@ p{
 
 
 /* ---------- GUITARCHIVE - INTERVJU ---------- */
-.t8IntervjuColorContainer{
+.t8IntervjuColorContainer {
     background-color: var(--orangeTwo);
-    padding: 3rem 8rem 10rem 8rem;    
+    padding: 3rem 8rem 10rem 8rem;
 }
 
-.intervjuMainContainer{
+.intervjuMainContainer {
     padding: 4rem;
     background-color: var(--darkGray);
     display: flex;
@@ -1186,57 +1169,57 @@ p{
     gap: 3rem;
 }
 
-.intervjuMainContainer H2{
+.intervjuMainContainer H2 {
     color: var(--yellowTwo);
     display: flex;
     justify-content: left;
 }
 
-.intervjuMainContainer p{
+.intervjuMainContainer p {
     color: var(--white);
 }
 
-.t8IntervjuContainerTwo p{
+.t8IntervjuContainerTwo p {
     color: var(--yellowTwo);
     margin-bottom: 1rem;
 }
 
-.t8IntervjuIMG{
+.t8IntervjuIMG {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.t8IntervjuIMGSecondContainer img{
+.t8IntervjuIMGSecondContainer img {
     width: 41vw;
 }
 
-.t8IntervjuIMGFirstContainer{
+.t8IntervjuIMGFirstContainer {
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
 
-.t8IntervjuIMGFirstContainer img{
+.t8IntervjuIMGFirstContainer img {
     width: 20vw;
 }
 
 
 
 /* ---------- GUITARCHIVE - PERSONAS - EMIL ---------- */
-.emilInfo{
+.emilInfo {
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
 
-.emilMainInfo{
+.emilMainInfo {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.emilMainInfoUl{
+.emilMainInfoUl {
     background-color: var(--blackGray);
     padding: 2rem 4rem;
     display: flex;
@@ -1244,49 +1227,49 @@ p{
     gap: 1rem;
 }
 
-.emilMainInfo ul{
+.emilMainInfo ul {
     color: var(--yellowTwo);
     list-style: none;
     text-decoration: none;
 }
 
-.emilMainInfo ul span{
+.emilMainInfo ul span {
     color: var(--white);
 }
 
-.spanOneEmil{
+.spanOneEmil {
     margin-left: 7rem;
 }
 
-.spanTwoEmil{
+.spanTwoEmil {
     margin-left: 7rem;
 }
 
-.spanThreeEmil{
+.spanThreeEmil {
     margin-left: 3rem;
 }
 
-.spanFourEmil{
+.spanFourEmil {
     margin-left: 6rem;
 }
 
-.emilBio{
+.emilBio {
     background-color: var(--blackGray);
     padding: 2rem 4rem;
 }
 
-.emilMaalFrustrasjon{
+.emilMaalFrustrasjon {
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
 
-.emilMaal{
+.emilMaal {
     background-color: var(--blackGray);
     padding: 2rem;
 }
 
-.emilFrustrasjon{
+.emilFrustrasjon {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1294,14 +1277,14 @@ p{
     padding: 2rem;
 }
 
-.emilSituasjonPlattformer{
+.emilSituasjonPlattformer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     gap: 1rem;
 }
 
-.emilSituasjon{
+.emilSituasjon {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1309,7 +1292,7 @@ p{
     padding: 2rem;
 }
 
-.emilPlattformer{
+.emilPlattformer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1321,7 +1304,7 @@ p{
 
 
 /* ---------- GUITARCHIVE - BRUKERREISE ---------- */
-.t7BrukerreiseMoodboardColorContainer{
+.t7BrukerreiseMoodboardColorContainer {
     background-color: var(--orangeTwo);
     padding: 10rem 8rem;
     display: flex;
@@ -1329,20 +1312,20 @@ p{
     gap: 5rem;
 }
 
-.t7BrukerreiseMoodboardColorContainer h2{
+.t7BrukerreiseMoodboardColorContainer h2 {
     color: var(--yellowTwo);
 }
 
-.t7BrukerreiseMoodboardColorContainer p{
+.t7BrukerreiseMoodboardColorContainer p {
     color: var(--white);
 }
 
-.t8BrukerreiseContainer h2{
+.t8BrukerreiseContainer h2 {
     display: flex;
     justify-content: left;
 }
 
-.t8BrukerreiseContainer{
+.t8BrukerreiseContainer {
     background-color: var(--darkGray);
     padding: 2rem;
     display: flex;
@@ -1353,12 +1336,12 @@ p{
 
 
 /* ---------- GUITARCHIVE - MOODBOARD ---------- */
-.t8MoodboardContainer h2{
+.t8MoodboardContainer h2 {
     display: flex;
     justify-content: left;
 }
 
-.t8MoodboardContainer{
+.t8MoodboardContainer {
     background-color: var(--darkGray);
     padding: 2rem;
     display: flex;
@@ -1369,21 +1352,21 @@ p{
 
 
 /* ---------- GUITARCHIVE - PROBLEMSTILLING ---------- */
-.t8ProblemstillingMVPContainer{
+.t8ProblemstillingMVPContainer {
     display: flex;
     flex-direction: column;
     gap: 10rem;
     padding: 10rem 10rem;
 }
 
-.t8ProblemstillingMVPContainer h2{
+.t8ProblemstillingMVPContainer h2 {
     color: var(--white);
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
 }
 
-.t8ProblemstillingMVPContainer p{
+.t8ProblemstillingMVPContainer p {
     color: var(--yellowTwo);
     border-style: solid;
     border-color: var(--white);
@@ -1393,7 +1376,7 @@ p{
 
 
 /* ---------- GUITARCHIVE - LOW-FI ---------- */
-.t7LowFiMidFiColorContainer{
+.t7LowFiMidFiColorContainer {
     background-color: var(--orangeTwo);
     padding: 10rem 8rem 10rem 8rem;
     display: flex;
@@ -1401,21 +1384,21 @@ p{
     gap: 10rem;
 }
 
-.t7LowFiMidFiColorContainer h2{
+.t7LowFiMidFiColorContainer h2 {
     color: var(--yellowTwo);
     margin-bottom: 2rem;
 }
 
-.t7LowFiMidFiColorContainer p{
+.t7LowFiMidFiColorContainer p {
     color: var(--white);
 }
 
-.t8LowFiContainer h2{
+.t8LowFiContainer h2 {
     display: flex;
     justify-content: left;
 }
 
-.t8LowFiContainer{
+.t8LowFiContainer {
     background-color: var(--darkGray);
     padding: 3rem;
     display: flex;
@@ -1423,19 +1406,19 @@ p{
     gap: 3rem;
 }
 
-.t8LowFiIMG img{
+.t8LowFiIMG img {
     height: 32vw;
 }
 
 
 
 /* ---------- GUITARCHIVE - MID-FI ---------- */
-.t8MidFiContainer h2{
+.t8MidFiContainer h2 {
     display: flex;
     justify-content: left;
 }
 
-.t8MidFiContainer{
+.t8MidFiContainer {
     background-color: var(--darkGray);
     padding: 3rem;
     display: flex;
@@ -1443,25 +1426,25 @@ p{
     gap: 3rem;
 }
 
-.t8MidFiIMG img{
+.t8MidFiIMG img {
     height: 32vw;
 }
 
 
 
 /* ---------- GUITARCHIVE - BRUKERTESTER ---------- */
-.t8BrukertesterContainer{
+.t8BrukertesterContainer {
     display: flex;
     flex-direction: column;
     gap: 5rem;
     padding: 10rem 10rem;
 }
 
-.t8BrukertesterContainer h2{
+.t8BrukertesterContainer h2 {
     color: var(--yellowTwo);
 }
 
-.t8BrukertesterContainer h3{
+.t8BrukertesterContainer h3 {
     color: var(--yellowTwo);
     font-size: 1.4rem;
     font-weight: 400;
@@ -1470,11 +1453,11 @@ p{
     justify-content: left;
 }
 
-.t8BrukertesterContainer p{
+.t8BrukertesterContainer p {
     color: var(--white);
 }
 
-.t8BrukertesterTilbakemeldinger{
+.t8BrukertesterTilbakemeldinger {
     border-style: solid;
     border-color: var(--white);
     padding: 4rem;
@@ -1485,7 +1468,7 @@ p{
     align-items: center;
 }
 
-.t8BrukertesterTilbakemeldinger ul{
+.t8BrukertesterTilbakemeldinger ul {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -1494,34 +1477,34 @@ p{
 
 
 /* ---------- GUITARCHIVE - HI-FI ---------- */
-.t8HiFiColorContainer{
+.t8HiFiColorContainer {
     background-color: var(--orangeTwo);
     padding: 10rem 10rem;
 }
 
-.t8HiFiColorContainer h2{
+.t8HiFiColorContainer h2 {
     color: var(--yellowTwo);
     margin-bottom: 1.5rem;
     display: flex;
     justify-content: left;
 }
 
-.t8HiFiColorContainer p{
+.t8HiFiColorContainer p {
     color: var(--white);
 }
 
-.t8HiFiText{
+.t8HiFiText {
     padding: 2rem 3rem;
     background-color: var(--blackGray);
 }
 
-.t8HiFiTextMLink a{
+.t8HiFiTextMLink a {
     padding: 2rem;
     text-decoration: none;
     color: var(--darkGray);
 }
 
-.t8HiFiTextMLink{
+.t8HiFiTextMLink {
     background-color: var(--yellowTwo);
     display: flex;
     flex-direction: column;
@@ -1531,30 +1514,30 @@ p{
     border-color: var(--blackGray);
 }
 
-.t8HiFiContainer{
+.t8HiFiContainer {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.hiFiTogetherGuiArchive{
+.hiFiTogetherGuiArchive {
     height: 50vw;
 }
 
-.t8HiFiPictures{
+.t8HiFiPictures {
     margin-top: 10rem;
     display: flex;
     flex-direction: column;
     gap: 10rem;
 }
 
-.t8HiFiPictures h2{
+.t8HiFiPictures h2 {
     display: flex;
     justify-content: center;
     margin: 2rem;
 }
 
-.t8HiFiDesktopContainer{
+.t8HiFiDesktopContainer {
     padding: 2rem;
     background-color: var(--darkGray);
     display: flex;
@@ -1562,7 +1545,7 @@ p{
     align-items: center;
 }
 
-.t8HiFiMobilContainer{
+.t8HiFiMobilContainer {
     padding: 2rem;
     background-color: var(--darkGray);
     display: flex;
@@ -1571,7 +1554,7 @@ p{
     gap: 2rem;
 }
 
-.t8HiFiMobilFirstIMG{
+.t8HiFiMobilFirstIMG {
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -1579,7 +1562,7 @@ p{
     justify-content: center;
 }
 
-.t8HiFiMobilSecondIMG{
+.t8HiFiMobilSecondIMG {
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -1587,49 +1570,9 @@ p{
     justify-content: center;
 }
 
-.hiFiMobileGuitArchive{
+.hiFiMobileGuitArchive {
     height: 40vw;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  VELDIG GOD KODE!
-
-
-.t8Crazy8Container{
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.t8Crazy8IMG img{
-    height: 50vw;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1639,12 +1582,10 @@ p{
 
 
 
+/* ----- ----- MEDIASCREEN 1365PX ----- ----- */
 
-/* ---------- TEST ---------- */
-@media screen and (max-width: 1365px){
-
-
-    .t7PersonasContainer{
+@media screen and (max-width: 1365px) {
+    .t7PersonasContainer {
         margin: 0rem;
         padding: 2rem;
 
@@ -1653,765 +1594,514 @@ p{
 
 
 
+/* ----- ----- MEDIASCREEN 1230PX ----- ----- */
 
-@media screen and (max-width: 1230px){
-
-
-
-    .t7IdemyldringContainer{
+@media screen and (max-width: 1230px) {
+    .t7IdemyldringContainer {
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .t7IdemyldringIMG img{
+    .t7IdemyldringIMG img {
         height: 40vw;
     }
 
-    .t7AllResearchContainer{
+    .t7AllResearchContainer {
         padding: 10rem 2rem;
     }
 
-    .t7Research{
+    .t7Research {
         gap: 2rem;
         padding: 2rem;
     }
 
-
-    .t7Undersokelser{
+    .t7Undersokelser {
         padding: 2rem;
     }
 
-
-    .emilInfo{
+    .emilInfo {
         flex-direction: column;
     }
 
-    .emilMainInfo{
+    .emilMainInfo {
         display: flex;
         align-items: center;
         background-color: var(--blackGray);
         padding-top: 2rem;
     }
 
-    .emilMainInfo img{
+    .emilMainInfo img {
         width: 30vw;
     }
 
-    .emilPlattformer{
+    .emilPlattformer {
         margin-bottom: 10rem;
     }
 
-
-
-    .t8LowFiContainer{
+    .t8LowFiContainer {
         padding: 2rem;
 
     }
 
-
-
-
-  
-    
-
-
-
-
-
-
-
-   
-
-    
-
-
-  
-    .t8ResearchColorContainer{
-    padding: 10rem 2rem;
+    .t8ResearchColorContainer {
+        padding: 10rem 2rem;
     }
-    
-    
-    .t8ResearchContainer{
+
+    .t8ResearchContainer {
         flex-wrap: wrap;
     }
 
-    .t8ResearchTextTwo{
+    .t8ResearchTextTwo {
         align-items: center;
 
     }
 
-    .t8ResearchIMGOne img{
+    .t8ResearchIMGOne img {
         width: 70vw;
     }
 
-    .t8ResearchContainerTwo{
+    .t8ResearchContainerTwo {
         align-items: center;
     }
 
-
-    .t8ResearchIMGTwo img{
+    .t8ResearchIMGTwo img {
         width: 70vw;
     }
 
-    .t8ResearchContainer{
+    .t8ResearchContainer {
         justify-content: center;
     }
 
-
-
-    .t8BrukerreiseContainer{
+    .t8BrukerreiseContainer {
         display: flex;
         justify-content: center;
     }
 
-
-
-    .t8MoodboardContainer{
+    .t8MoodboardContainer {
         display: flex;
         justify-content: center;
     }
 
-
-
-
-    .t8LowFiContainer{
+    .t8LowFiContainer {
         display: flex;
         justify-content: center;
     }
-    
 
-
-    .t8LowFiContainer{
+    .t8LowFiContainer {
         flex-wrap: wrap;
     }
 
-    .t8LowFiIMG img{
+    .t8LowFiIMG img {
         height: 70vw;
     }
 
-
-
-
-
-
-    .t8MidFiContainer{
+    .t8MidFiContainer {
         display: flex;
         justify-content: center;
         padding: 2rem;
     }
 
-    .t8MidFiContainer{
+    .t8MidFiContainer {
         flex-wrap: wrap;
     }
 
-    .t8MidFiIMG img{
+    .t8MidFiIMG img {
         height: 74vw;
-    
+    }
+}
+
+
+
+
+
+/* ----- ----- MEDIASCREEN 1100PX ----- ----- */
+
+@media screen and (max-width: 1100px){
+    .introduksjon p {
+        margin: 0rem 10vw 5rem;
     }
 
-
-
-
-  
-
-
-
-
-    /* Lag en colaps på personas flexene */
-}
-
-
-
-@media screen and (max-width: 1100px) {
-
-
-/* ----- ----- ----- TEMA 7 - MEDIASCREEN 1100PX ----- ----- ----- */
-
-
-
-.introduksjon p{
-    margin: 0rem 10vw 5rem;
-}
-
-
-
-
-    .temaOppgaveContainer{
+    .temaOppgaveContainer {
         flex-wrap: wrap;
         justify-content: center;
         padding: 10rem 2rem;
         gap: 3rem;
     }
 
-
-    .t7OppgaveIMG img{
+    .t7OppgaveIMG img {
         height: 100vw;
     }
-    
 
-    .t7IdemyldringContainer{
+    .t7IdemyldringContainer {
         margin: 10rem 2rem;
     }
 
-    .t7IdemyldringIMG img{
+    .t7IdemyldringIMG img {
         height: 56vw;
     }
 
-
-    .t7AllResearchContainer{
+    .t7AllResearchContainer {
         padding: 10rem 1rem;
     }
 
-
-    .t7Research{
+    .t7Research {
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
     }
 
-
-    .t7ResearchIMG img{
+    .t7ResearchIMG img {
         height: 27vh;
     }
 
-  
-
-
-
-
-
-    .t7Undersokelser{
+    .t7Undersokelser {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .t7Form img{
+    .t7Form img {
         margin-top: 1rem;
-        height: 35vw; 
+        height: 35vw;
     }
 
-
-
-    .t7Intervjuer{
+    .t7Intervjuer {
         padding: 2rem;
         gap: 4rem;
         flex-wrap: wrap;
     }
 
- 
-    .t7ProblemstillingContainer{
+    .t7ProblemstillingContainer {
         padding: 9rem 2rem;
     }
 
-
-    .t7ProblemstillingSecondText{
+    .t7ProblemstillingSecondText {
         margin-top: 5rem;
         margin-bottom: 5rem;
         padding: 2rem;
     }
 
-    
-
-
-
-    .t7BrukerreiseContainer{
+    .t7BrukerreiseContainer {
         display: flex;
         flex-wrap: wrap;
-
         gap: 4rem;
         padding: 5rem 2rem;
     }
 
-
-    .t7BrukerreiseIMG{
+    .t7BrukerreiseIMG {
         justify-content: center;
         align-items: center;
     }
 
-
-    .t7BrukerreiseIMG IMG{
+    .t7BrukerreiseIMG IMG {
         height: 55vW;
     }
 
-
-
-
-    /* --- MARTIN --- */
-
-
-
-    .t7PersonasText{
+    .t7PersonasText {
         padding: 3rem 1rem;
     }
-       
-    .martinFlexWrap{
+
+    .martinFlexWrap {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap; 
-    }
-
-    .martinInfo{
         flex-wrap: wrap;
     }
 
-    .martinInfo{
+    .martinInfo {
+        flex-wrap: wrap;
+    }
+
+    .martinInfo {
         justify-content: center;
     }
 
-
-    .martinMainInfo IMG{
+    .martinMainInfo IMG {
         width: 40vw;
     }
 
-    .martinIMG{
+    .martinIMG {
         background-color: var(--blackGray);
-        padding: 2rem 25vw ;
-
+        padding: 2rem 25vw;
     }
 
-
-    .martinPersonlighet{
+    .martinPersonlighet {
         padding: 2rem 0rem;
     }
 
-    .martinHobbyer{
+    .martinHobbyer {
         padding: 2rem 0rem;
     }
 
-    .martinMaal{
+    .martinMaal {
         padding: 2rem 0rem;
     }
 
-    .martinUtfordringer{
+    .martinUtfordringer {
         padding: 2rem 0rem;
     }
 
-    .martinBehov{
+    .martinBehov {
         padding: 2rem 0rem;
     }
 
-    .martinPlattformer{
+    .martinPlattformer {
         padding: 2rem 0rem;
-
     }
 
-
-
-
-
-
-
-
-    .martinPersonlighetHobbyer{
+    .martinPersonlighetHobbyer {
         flex-wrap: wrap;
         gap: 0rem;
         padding-top: 2rem;
     }
 
-
-    .martinMaalUtfordringer{
+    .martinMaalUtfordringer {
         flex-wrap: wrap;
         gap: 0rem;
     }
 
-    .martinBehovPlattformer{
+    .martinBehovPlattformer {
         flex-wrap: wrap;
         gap: 0rem;
         padding-bottom: 2rem;
-
     }
 
-    .martinSecondInfo{
+    .martinSecondInfo {
         gap: 0rem;
         background-color: var(--blackGray);
-
     }
 
-
-    .t7DesignprosessContainer{
+    .t7DesignprosessContainer {
         padding: 10rem 0rem;
         gap: 5rem;
     }
- 
 
-
-    .t7Wireframes{
+    .t7Wireframes {
         margin: 2rem;
     }
 
-    .t7WireframesText{
+    .t7WireframesText {
         background-color: var(--darkGray);
         margin-bottom: 2rem;
         padding: 2rem 2rem;
     }
 
-    .t7WireframesIMGs{
+    .t7WireframesIMGs {
         background-color: var(--darkGray);
         padding: 2rem;
     }
 
-
-
-
-
-    
-    /* .t7WireframesIMGs{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
-        justify-content: space-evenly;
-    
-        background-color: var(--darkGray);
-        padding: 2rem 0rem; 
-    } */
-
-
-
-
-
-
-
-    .t7LowFi{
+    .t7LowFi {
         margin: 2rem;
-    
     }
 
-    .t7LowFiText{
+    .t7LowFiText {
         padding: 2rem;
     }
 
-    .t7LowFiIMGs{
+    .t7LowFiIMGs {
         background-color: var(--darkGray);
         padding: 2rem 0rem;
     }
 
-    .lowFiOne{
+    .lowFiOne {
         height: 23vw;
     }
-    
-    .lowFiTwo{
+
+    .lowFiTwo {
         height: 48vw;
     }
-    
-    .lowFiThree{
+
+    .lowFiThree {
         height: 46vw;
     }
 
-    .t7VarLosningMockupOne img{
+    .t7VarLosningMockupOne img {
         height: 40vw;
-
     }
 
-
-    .t7VarLosningIMGs img{
+    .t7VarLosningIMGs img {
         height: 80vw;
-    
     }
-    
 
-
-
-    
-
-
-    .t7VaarLosningContainer{
+    .t7VaarLosningContainer {
         padding: 5rem 3rem;
     }
 
-
-
-
-
-
-
-
-
-    .t7VaarLosningPresentasjonPlussIMG{
+    .t7VaarLosningPresentasjonPlussIMG {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-
     }
 
-    .t7VaarLosningPresentasjonPlussIMG img{
+    .t7VaarLosningPresentasjonPlussIMG img {
         height: 50vw;
-
     }
 
-
-
-
-
-
-/* ----- ----- ----- OM MEG - MEDIASCREEN----- ----- ----- */
-    .omMegContainer{
+    .omMegContainer {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .omMegSection{
+    .omMegSection {
         padding: 1rem;
         margin: 2rem;
     }
 
-    .omMegText{
+    .omMegText {
         display: flex;
         align-items: center;
     }
-    
-    .omMegIMG img{
-        height: 60vw;
 
+    .omMegIMG img {
+        height: 60vw;
     }
 
-    .kontaktinformasjonText{
+    .kontaktinformasjonText {
         margin: 0rem 10vw 15rem 10vw;
-    
     }
 
-
-
-
-
-
-
-
-/* ----- ----- ----- TEMA 8 - MEDIASCREEN 1100PX ----- ----- ----- */
-
-
-
-/* ----- Tema 8 ----- */
-
-    .t8OppgaveIMG img{
+    .t8OppgaveIMG img {
         height: 60vw;
     }
 
-
-/* ----- Crazy 8s ----- */
-
-    .t8Crazy8Container{
+    .t8Crazy8Container {
         flex-wrap: wrap;
         justify-content: center;
         margin: 5rem 2rem;
-        
     }
 
-    .t8Crazy8IMG img{
+    .t8Crazy8IMG img {
         height: 80vw;
     }
 
-
-
-    
-
-
-/* ----- Sortering av idéer ----- */
-
-    .t8sorteringIMGOne{
+    .t8sorteringIMGOne {
         display: flex;
         justify-content: center;
     }
 
-    .t8sorteringIMGOne img{
+    .t8sorteringIMGOne img {
         height: 50vw;
-
     }
 
-    .t8sorteringContainer{
+    .t8sorteringContainer {
         flex-wrap: wrap;
         justify-content: center;
         margin: 10rem 2rem;
     }
-    
-    .t8sorteringIMGTwo img{
+
+    .t8sorteringIMGTwo img {
         height: 37vw;
     }
 
-    .t8sorteringContainer{
+    .t8sorteringContainer {
         gap: 0rem;
-
     }
 
-
-
-/* ----- Skisser ----- */
-
-    .t8SkisserContainer{
+    .t8SkisserContainer {
         flex-wrap: wrap;
         justify-content: center;
-
         margin: 10rem 2rem;
         gap: 2rem;
     }
 
-    .t8SkisserContainerTwo{
+    .t8SkisserContainerTwo {
         margin-top: 1rem;
     }
-    
-    .t8SkisserContainerTwo img{
+
+    .t8SkisserContainerTwo img {
         height: 60vw;
     }
-    
 
-
-/* ----- Intervju ----- */
-    
-    .intervjuMainContainer{
+    .intervjuMainContainer {
         flex-wrap: wrap;
         padding: 2rem;
     }
 
-    .t8IntervjuColorContainer{
+    .t8IntervjuColorContainer {
         background-color: var(--orangeTwo);
         padding: 2rem;
     }
 
-    .t8IntervjuIMGFirstContainer img{
+    .t8IntervjuIMGFirstContainer img {
         width: 36vw;
     }
 
-    .t8IntervjuIMGSecondContainer img{
+    .t8IntervjuIMGSecondContainer img {
         width: 75vw;
     }
 
-
-
-
- /* ----- Brukerreise ----- */
-
-    .t8BrukerreiseContainer{
-        flex-wrap: wrap;
-    }
-    
-    .t8MoodboardContainer{
+    .t8BrukerreiseContainer {
         flex-wrap: wrap;
     }
 
-    .t7BrukerreiseMoodboardColorContainer{
+    .t8MoodboardContainer {
+        flex-wrap: wrap;
+    }
+
+    .t7BrukerreiseMoodboardColorContainer {
         padding: 10rem 2rem;
     }
 
-    .t8BrukerreiseIMG img{
+    .t8BrukerreiseIMG img {
         height: 60vw;
     }
 
-    .t8MoodboardIMG img{
+    .t8MoodboardIMG img {
         height: 55vw;
     }
 
-
-
- /* ----- Problemstilling ----- */
-
-    .t8ProblemstillingMVPContainer{
+    .t8ProblemstillingMVPContainer {
         padding: 10rem 2rem;
-    
     }
 
-
-
-
-
-
- /* ----- Personas Emil ----- */
-    .emilMainInfo img{
+    .emilMainInfo img {
         width: 45vw;
     }
 
-    .emilBio{
+    .emilBio {
         padding: 2rem 2rem;
     }
 
-
-    .emilMaalFrustrasjon{
+    .emilMaalFrustrasjon {
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .emilSituasjonPlattformer{
+    .emilSituasjonPlattformer {
         flex-wrap: wrap;
         justify-content: center;
     }
 
- 
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .t7LowFiMidFiColorContainer{
+    .t7LowFiMidFiColorContainer {
         padding: 10rem 2rem;
     }
 
-
-
-    .t8BrukertesterContainer{
- 
+    .t8BrukertesterContainer {
         padding: 10rem 2rem;
     }
 
-
-   
-        .t8HiFiColorContainer{
+    .t8HiFiColorContainer {
         background-color: var(--orangeTwo);
         padding: 10rem 2rem;
     }
 
-
-    .hiFiMobileGuitArchive{
+    .hiFiMobileGuitArchive {
         height: 60vw;
     }
 
-
-
-    .hiFiTogetherGuiArchive{
+    .hiFiTogetherGuiArchive {
         height: 65vw;
-
     }
-
-
-
-
-
-
-    
-
-
-
-
-
-
-   
-
-
-    
-
-
-
-
-
-    
-
-
 }
 
 
 
-@media screen and (max-width: 690px) {
 
-    nav{
+
+/* ----- ----- MEDIASCREEN 690PX ----- ----- */
+
+@media screen and (max-width: 690px) {
+    nav {
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
@@ -2419,59 +2109,37 @@ p{
         gap: 2rem;
     }
 
-    nav ul{
+    nav ul {
         flex-wrap: wrap;
         flex-direction: column;
         gap: 1rem;
-       
     }
 
-
-    .elliotMockup img{
+    .elliotMockup img {
         height: 20rem;
     }
 
-
-    .nasjonalmuseetMockup img{
+    .nasjonalmuseetMockup img {
         height: 12rem;
     }
 
-    .guitArchiveMockup img{
+    .guitArchiveMockup img {
         height: 12rem;
     }
 
-    .runMockup{
+    .runMockup {
         height: 30rem;
     }
 
-
-    .hiFiMobileGuitArchive{
+    .hiFiMobileGuitArchive {
         height: 120vw;
-    
     }
 
-    .t7WireframesIMGs{
+    .t7WireframesIMGs {
         background-color: var(--darkGray);
     }
 
-    .t7WireframesIMGs img{
+    .t7WireframesIMGs img {
         height: 100vw;
-       
-    }
-
-
-
-
-
-
-
-}
-
-
-
-@media screen and (max-width: 320px) { /* TEST */
-
-    body{
-        background-color: purple;
     }
 }
