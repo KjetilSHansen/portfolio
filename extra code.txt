@@ -1,3 +1,6 @@
+
+/* ---------- ---------- ---------- ---------- PROGRAMS PAGE CSS ---------- ---------- ---------- ---------- */
+
 <!DOCTYPE html>
 <html lang="no">
 
@@ -143,3 +146,271 @@
 </body>
 
 </html>
+
+
+
+
+
+/* ---------- ---------- ---------- ---------- PROGRAMS PAGE CSS ---------- ---------- ---------- ---------- */
+
+
+
+
+
+
+/* ---------- All PROGRAMS ---------- */
+
+
+
+
+.programsContainer{
+    margin-top: 40rem;
+}
+
+
+.allProgramsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20rem;
+
+    color: var(--white);
+}
+
+
+.allProgramsContainer img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 1rem;
+}
+
+.allProgramsContainer h2{
+    color: var(--white);
+}
+
+.allProgramsContainer h3{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- WEB PROGRAMS ---------- */
+.webHeadingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.webHeadingContainer hr{
+    width: 100%;
+}
+
+.webProgramsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+/* ---------- UX PROGRAMS ---------- */
+.uxHeadingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.uxHeadingContainer hr{
+    width: 100%;
+}
+
+.uxProgramsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+
+/* ---------- SOUND PROGRAMS ---------- */
+.soundHeadingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.soundHeadingContainer hr{
+    width: 100%;
+}
+
+.soundProgramsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+/* ---------- KNOWN PROGRAMS ---------- */
+.knownProgramsHeadingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.knownProgramsHeadingContainer hr{
+    width: 100%;
+}
+
+
+.knownProgramsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+
+
+
+
+
+
+/* ---------- HTML PROGRAM ---------- */
+.htmlProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- CSS PROGRAM ---------- */
+.cssProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- FIGMA PROGRAM ---------- */
+.figmaProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- JIRA PROGRAM ---------- */
+.jiraProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- AFFINITY DESIGNER PROGRAM ---------- */
+.affinityDesignerProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- AFFINITY PHOTO PROGRAM ---------- */
+.affinityPhotoProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---------- ILLUSTRATOR PROGRAM ---------- */
+.illustratorProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- PHOTOSHOP PROGRAM ---------- */
+.photoShopProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- INDESIGN PROGRAM ---------- */
+.inDesignProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- LOGIC PRO PROGRAM ---------- */
+.logicProProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- PRO TOOLS PROGRAM ---------- */
+.proToolsProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- FINALCUT PRO PROGRAM ---------- */
+.finalCutProProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- JAVASCRIPT PROGRAM ---------- */
+.javaScriptProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- WEBFLOW PROGRAM ---------- */
+.webflowProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- GITHUB PROGRAM ---------- */
+.gitHubProgramContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -130,7 +130,7 @@ h1{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.7rem;
 
     /* color: var(--white); */
     color: pink;
@@ -188,25 +188,17 @@ p{
 
 
 
-
-
-
+/* ---------- INTRODUKSJON ---------- */
 .introduksjon h1{
-    margin: 20rem 2rem 0rem 2rem;
+    margin: 17rem 2rem 0rem 2rem;
     color: var(--yellowOne);
-
 }
-
 
 .introduksjon p{
     color: var(--white);
     padding: 1rem;
-    margin: 0rem 22vw 10rem;
+    margin: 0rem 22vw 20rem;
 }
-
-
-
-
 
 
 
@@ -216,7 +208,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .allAssignmentsContainer{
@@ -226,11 +218,12 @@ p{
 
 
     margin: 2rem 5rem 10rem;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .assignmentsContainer h2{
     color: var(--yellowOne);
+    font-weight: 600;
 }
 
 
@@ -340,8 +333,8 @@ p{
     justify-content: center;
     align-items: center;
     margin: 0rem 30vw 4rem 30vw;
-    padding: 1rem;
-    background-color: var(--yellowOne);
+    padding: 0.5rem;
+    background-color: var(--yellowTwo);
     border-radius: 2rem;
 }
 
@@ -360,292 +353,41 @@ p{
 .footerContainer{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
+    justify-content: center;
+
+    gap: 3rem;
     background-color: var(--blackGray);
     color: var(--white);
-    padding: 2rem 0rem 7rem 0rem;
+    padding: 2rem 0rem 5rem 0rem;
 }
+
 
 .footerContainer ul{
     text-decoration: none;
     list-style: none;
-    justify-content: center;
+    align-items: center;
+
 
     display: flex;
     flex-direction: column;
+    gap: 2rem;
+}
+
+.footerContainer ul li{
+    display: flex;
     gap: 1rem;
 }
 
-.footerContainer h2{
+.footerContainer ul li a{
+    
     color: var(--yellowOne);
 }
 
 
 
-/* ---------- ---------- ---------- ---------- PROGRAMS PAGE ---------- ---------- ---------- ---------- */
-
-
-
-
-/* ---------- All PROGRAMS ---------- */
-
-
-
-
-.programsContainer{
-    margin-top: 40rem;
+.footerContainer h2{
+    color: var(--yellowOne);
 }
-
-
-.allProgramsContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20rem;
-
-    color: var(--white);
-}
-
-
-.allProgramsContainer img{
-    height: 6rem;
-    width: 6rem;
-    border-radius: 1rem;
-}
-
-.allProgramsContainer h2{
-    color: var(--white);
-}
-
-.allProgramsContainer h3{
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
-    margin-top: 2rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------- WEB PROGRAMS ---------- */
-.webHeadingContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
-.webHeadingContainer hr{
-    width: 100%;
-}
-
-.webProgramsContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-
-/* ---------- UX PROGRAMS ---------- */
-.uxHeadingContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
-.uxHeadingContainer hr{
-    width: 100%;
-}
-
-.uxProgramsContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-
-}
-
-
-/* ---------- SOUND PROGRAMS ---------- */
-.soundHeadingContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
-.soundHeadingContainer hr{
-    width: 100%;
-}
-
-.soundProgramsContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-
-/* ---------- KNOWN PROGRAMS ---------- */
-.knownProgramsHeadingContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
-.knownProgramsHeadingContainer hr{
-    width: 100%;
-}
-
-
-.knownProgramsContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-
-
-
-
-
-
-
-/* ---------- HTML PROGRAM ---------- */
-.htmlProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- CSS PROGRAM ---------- */
-.cssProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- FIGMA PROGRAM ---------- */
-.figmaProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- JIRA PROGRAM ---------- */
-.jiraProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- AFFINITY DESIGNER PROGRAM ---------- */
-.affinityDesignerProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- AFFINITY PHOTO PROGRAM ---------- */
-.affinityPhotoProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* ---------- ILLUSTRATOR PROGRAM ---------- */
-.illustratorProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- PHOTOSHOP PROGRAM ---------- */
-.photoShopProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- INDESIGN PROGRAM ---------- */
-.inDesignProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- LOGIC PRO PROGRAM ---------- */
-.logicProProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- PRO TOOLS PROGRAM ---------- */
-.proToolsProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- FINALCUT PRO PROGRAM ---------- */
-.finalCutProProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- JAVASCRIPT PROGRAM ---------- */
-.javaScriptProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- WEBFLOW PROGRAM ---------- */
-.webflowProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ---------- GITHUB PROGRAM ---------- */
-.gitHubProgramContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 
 
 
@@ -2970,6 +2712,21 @@ p{
 
 
 @media screen and (max-width: 690px) {
+
+    nav{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 1rem;
+       
+    }
 
 
     .elliotMockup img{
