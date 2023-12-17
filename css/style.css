@@ -1721,6 +1721,10 @@ p {
         margin: 0rem 10vw 5rem;
     }
 
+    .introduksjon h1 {
+        font-size: 2.2rem;
+    }
+
     .temaOppgaveContainer {
         flex-wrap: wrap;
         justify-content: center;
