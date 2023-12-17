@@ -360,6 +360,7 @@ p{
 }
 
 
+
 .footerContainer ul{
     text-decoration: none;
     list-style: none;
@@ -393,8 +394,7 @@ p{
 /* ---------- ---------- ---------- ----------  ABOUT PAGE  ---------- ---------- ---------- ---------- */
 
 .omMegSection h1{
-    display: flex;
-    justify-content: left;
+
     margin-bottom: 10rem;
     margin-top: 10rem;
 }
@@ -433,6 +433,62 @@ p{
     margin-bottom: 10rem;
 
 }
+
+
+
+/* ---------- ---------- ---------- ----------  CONTACT PAGE  ---------- ---------- ---------- ---------- */
+
+/* ---------- ALL H1 ---------- */
+.kontaktinformasjonContainer h1{
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+}
+
+
+.kontaktinformasjonText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 3rem;
+    color: var(--white);
+    padding: 2rem 0rem 5rem 0rem;
+
+
+    margin: 0rem 20vw 20rem 20vw;
+
+    border-style: solid;
+
+}
+
+.kontaktinformasjonText h2{
+    color: var(--yellowOne);
+
+}
+
+.kontaktinformasjonText ul{
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.kontaktinformasjonText ul li{
+    display: flex;
+    gap: 1rem;
+}
+
+.kontaktinformasjonText ul li a{    
+    color: var(--yellowOne);
+}
+
+
+
+
 
 
 
@@ -2545,6 +2601,11 @@ p{
     .omMegIMG img{
         height: 60vw;
 
+    }
+
+    .kontaktinformasjonText{
+        margin: 0rem 10vw 15rem 10vw;
+    
     }
 
 
