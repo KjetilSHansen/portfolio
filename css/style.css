@@ -2057,6 +2057,21 @@ p {
     .emilMainInfo img {
         width: 45vw;
     }
+    .spanOneEmil {
+        margin-left: 4rem;
+    }
+    
+    .spanTwoEmil {
+        margin-left: 4rem;
+    }
+    
+    .spanThreeEmil {
+        margin-left: 1rem;
+    }
+    
+    .spanFourEmil {
+        margin-left: 3rem;
+    }
 
     .emilBio {
         padding: 2rem 2rem;
