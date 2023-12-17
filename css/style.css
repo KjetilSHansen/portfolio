@@ -390,6 +390,51 @@ p{
 
 
 
+/* ---------- ---------- ---------- ----------  ABOUT PAGE  ---------- ---------- ---------- ---------- */
+
+.omMegSection h1{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+
+.omMegSection{
+    padding: 2rem;
+    margin: 4rem;
+}
+
+
+.omMegContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.omMegContainer h2{
+    display: flex;
+    justify-content: left;
+    color: var(--yellowOne);
+}
+
+.omMegContainer p{
+    color: var(--white);
+}
+
+.omMegText{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.omMegIMG img{
+    height: 40vw;
+    margin-bottom: 10rem;
+
+}
+
+
 
 /* ---------- ---------- ---------- ---------- ELLIOT PAGE ---------- ---------- ---------- ---------- */
 
@@ -2479,6 +2524,28 @@ p{
 
 
 
+
+/* ----- ----- ----- OM MEG - MEDIASCREEN----- ----- ----- */
+    .omMegContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .omMegSection{
+        padding: 1rem;
+        margin: 2rem;
+    }
+
+    .omMegText{
+        display: flex;
+        align-items: center;
+    }
+    
+    .omMegIMG img{
+        height: 60vw;
+
+    }
 
 
 
