@@ -399,12 +399,10 @@ p{
 /* ---------- ELLIOT TEMA 7 ---------- */
 .temaOppgaveContainer{
     background-color: var(--orangeOne);
-
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 6rem;
-
+    gap: 10rem;
     padding: 10rem 8rem;
 }
 
@@ -1072,7 +1070,6 @@ p{
 
 
 .t7VarLosningMockupTwo{
- 
     display: flex;
     justify-content: center;
 }
@@ -1091,26 +1088,38 @@ p{
 
 .t7VarLosningIMGs img{
     height: 40vw;
-
-    
-
 }
 
 
 .t7VarLosningIMGs{
-
-
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 4rem;
-
     justify-content: space-evenly;
-    
+}
+
+
+
+.t7HiFiTextMLink a{
+    text-decoration: none;
+    color: var(--blackGray);
+    text-decoration: underline;
+    font-weight: 400;
 
 }
 
+.t7HiFiTextMLink{
+    display: flex;
+    justify-content: center;  
+    background-color: var(--yellowTwo);
+}
+
+.t7HiFiTextMLink h3{
+    padding: 1rem;
+    margin-bottom: 1rem;
+   
+}
 
 
 
@@ -2436,6 +2445,7 @@ p{
     
     }
     
+
 
 
     
