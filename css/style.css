@@ -1631,6 +1631,18 @@ p {
     gap: 3rem;
 }
 
+.prosjektinformasjo_figma_link{
+    display: flex;
+    justify-content: left;
+    margin-top: 1rem;
+}
+
+.prosjektinformasjo_figma_link h2 a{
+    color: var(--orangeOne);
+    font-size: 1.7rem;
+}
+
+
 
 
 
