@@ -190,10 +190,7 @@ p {
     transition: all 2s;
 }
 
-.elliotMockup :hover {
-    height: 26rem;
-    transition: all 6s;
-}
+
 
 
 
@@ -210,11 +207,6 @@ p {
 .guitArchiveMockup img {
     height: 23rem;
     transition: all 2s;
-}
-
-.guitArchiveMockup :hover {
-    height: 26rem;
-    transition: all 6s;
 }
 
 
