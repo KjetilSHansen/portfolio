@@ -1713,7 +1713,7 @@ p {
 
 button{
     background-color: var(--darkGray);
-    color: red;
+    color: #fa5c5c;
     font-size: 2rem;
     font-weight: 600;
     border-style: none;
