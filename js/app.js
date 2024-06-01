@@ -1,4 +1,7 @@
 
+
+// HANDLELISTE
+
 //Henter body med querySelector:
 const bodyElement = document.querySelector('body');
 console.log(bodyElement);
