@@ -2516,6 +2516,29 @@ button{
         margin-bottom: 10rem;
     }
 
+
+
+    .kontaktinformasjonText h2 {
+        font-size: 1.7rem;
+    }
+
+    .kontaktinformasjonText ul {
+        gap: 1.5rem;
+    }
+
+    .kontaktinformasjonText ul{
+        align-items: flex-start;
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .kontaktinformasjonText ul li {
+        flex-direction: column;
+    }
+
+    .kontaktinformasjonText {
+        margin: 1rem;
+    }
 }
 
 
@@ -2854,14 +2877,6 @@ button{
     .omMegIMG img {
         height: 100vw;
     }
-}
-
-
-
-
-
-
-
     
     .inputHL{
         height: 3.5rem;
@@ -2886,27 +2901,6 @@ button{
         margin-left: 0.5rem;
     }
 
-  
- 
-
-
-    
-
-
- 
-
-
-
-  
-
-
-
-
-
-
-
-
-
     .footerContainer {
         gap: 1rem;
     }
@@ -2923,6 +2917,11 @@ button{
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    .kontaktinformasjonText {
+        border-style: none;
+        margin: 0.5rem;
     }
 
 
