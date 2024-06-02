@@ -2792,9 +2792,15 @@ button{
     .ulHL li {
         font-size: 1.2rem;
         color: var(--orangeOne);
-        margin-top: 2rem;
+ 
+        padding: 0.7rem;
     }
 
+
+    button {
+        padding: 0.7rem;
+        margin-left: 0.5rem;
+    }
 
   
  
