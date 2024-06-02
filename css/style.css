@@ -2220,7 +2220,7 @@ button{
     }
 
     .t7VaarLosningContainer {
-        padding: 5rem 3rem;
+        padding: 5rem 2rem;
     }
 
     .t7VaarLosningPresentasjonPlussIMG {
@@ -2454,4 +2454,246 @@ button{
     .t7WireframesIMGs img {
         height: 100vw;
     }
+
+
+    .prosjektinformasjon {
+        flex-direction: column;
+        padding: 6rem 4rem;
+    }
+
+    .prosjektinformasjonText {
+        flex-direction: column;
+        gap: 3rem;
+    }
 }
+
+
+
+/* ----- ----- MEDIASCREEN 400PX ----- ----- */
+
+@media screen and (max-width: 400px) {
+    h1{
+        font-size: 2.4rem
+    }
+
+    h2{
+        font-size: 1.8rem;
+    }
+
+    h3{
+        font-size: 1.4rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .myName a{
+        font-size: 1.4rem;
+    }
+
+    nav{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    nav ul{
+        align-items: flex-start;
+    }
+
+    .prosjektinformasjon {
+        flex-direction: column;
+        padding: 6rem 1.5rem;
+    }
+
+    .prosjektinformasjo_figma_link h2 a {
+        font-size: 1.5rem;
+    }
+
+    .temaOppgaveContainer {
+        padding: 8rem 1.5rem;
+    }
+
+    .t7IdemyldringContainer {
+        margin: 8rem 1.5rem;
+    }
+
+    .t7Research {
+        padding: 1.5rem;
+    }
+
+    .t7ResearchIMG img {
+        height: 10rem;
+    }
+
+    .t7Undersokelser {
+        padding: 1.5rem;
+    }
+
+    .t7Intervjuer {
+        padding: 1.5rem;
+    }
+
+    .t7PersonasContainer {
+        padding: 1.5rem;
+    }
+
+    .t7ProblemstillingContainer {
+        padding: 8rem 1.5rem;
+    }
+ 
+    .t7ProblemstillingSecondText {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding: 1.5rem;
+    }
+
+    .t7BrukerreiseContainer {
+        padding: 5rem 1.5rem;
+    }
+
+    .t7PersonasText {
+        padding: 2rem 0rem;
+    }
+
+    .martinMainInfo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .martinMainInfo IMG {
+        width: 13rem;
+    }
+
+    .martinIMG {
+        background-color: var(--blackGray);
+        padding: 2rem 2rem;
+        width: 17rem;
+    }
+
+    .martinMainInfoUl {
+        width: 17rem;
+        padding: 2rem 2rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .martinMainInfo ul span {
+        margin-left: 0.5rem;
+    }
+
+    .martinBio {
+        background-color: var(--blackGray);
+        padding: 1.5rem;
+    }
+
+    .martinPersonlighetHobbyer {
+        justify-content: center;
+        gap: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+    }
+
+    .martinMaalUtfordringer{
+        gap: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .martinBehovPlattformer{
+        gap: 1rem;
+        padding-bottom: 4rem;
+    }
+
+    .martinPersonlighet, .martinHobbyer, .martinMaal, .martinUtfordringer, .martinBehov, .martinPlattformer{
+        width: 70vw;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .t7Wireframes {
+        margin: 1rem;
+    }
+
+    .t7WireframesText{
+        padding: 2rem 1.5rem;
+    }
+
+    .t7LowFiText{
+        padding: 3rem 1.5rem;
+    }
+
+    .lowFiOne {
+        height: 4rem;
+    }
+
+    .lowFiTwo {
+        height: 8.5rem;
+    }
+
+    .lowFiThree {
+        height: 8rem;
+    }
+
+    .t7VaarLosningPresentasjon {
+        padding: 2rem 1.5rem;
+    }
+
+    .t7HiFiTextMLink h3 {
+        padding: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .t7VaarLosningPresentasjonPlussIMG img {
+        height: 17rem;
+    }
+
+    .t7VarLosningMockupTwo img {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 9.2rem;
+    }
+
+    .t7VarLosningIMGs img {
+        height: 17rem;
+    }
+
+    .elliotHeightOne img{
+        height: 24.5rem;
+    }
+
+    .elliotHeightTwo img{
+        height: 13.5rem;
+    }
+
+    .toppKnapp {
+        margin: 10rem 2rem 4rem 2rem;
+        border-radius: 2rem;
+    }
+
+    .footerContainer {
+        gap: 1rem;
+    }
+
+    .footerContainer ul {
+        padding: 1.5rem;
+        align-items: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footerContainer ul li {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+
+
+
+
+
