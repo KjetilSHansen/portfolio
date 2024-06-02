@@ -1868,6 +1868,7 @@ button{
 
 
 
+
 /* ----- ----- MEDIASCREEN 1365PX ----- ----- */
 
 @media screen and (max-width: 1365px) {
@@ -1877,6 +1878,8 @@ button{
 
     }
 }
+
+
 
 
 /* ----- ----- MEDIASCREEN 1230PX ----- ----- */
@@ -1925,7 +1928,6 @@ button{
 
     .t8LowFiContainer {
         padding: 2rem;
-
     }
 
     .t8ResearchColorContainer {
@@ -1997,6 +1999,7 @@ button{
 
 
 
+
 /* ----- ----- MEDIASCREEN 1103PX ----- ----- */
 @media screen and (max-width: 1103px) {
     .allAssignmentsContainer {
@@ -2004,6 +2007,7 @@ button{
 
     }
 }
+
 
 
 
@@ -2409,12 +2413,11 @@ button{
 
 
 
-
+/* ----- ----- MEDIASCREEN 872PX ----- ----- */
 @media screen and (max-width: 872px){
 
     .programmer {
         padding: 12rem 4rem;
-       
     }
 
     .programmerPJBText h2, .programmerJHKTText h2{
@@ -2422,14 +2425,6 @@ button{
         text-align: left;
     }
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -2483,7 +2478,6 @@ button{
         height: 100vw;
     }
 
-
     .prosjektinformasjon {
         flex-direction: column;
         padding: 6rem 4rem;
@@ -2494,6 +2488,7 @@ button{
         gap: 3rem;
     }
 }
+
 
 
 
@@ -2515,8 +2510,6 @@ button{
         gap: 6rem;
         margin-bottom: 10rem;
     }
-
-
 
     .kontaktinformasjonText h2 {
         font-size: 1.7rem;
@@ -2540,8 +2533,6 @@ button{
         margin: 1rem;
     }
 }
-
-
 
 
 
@@ -2826,7 +2817,6 @@ button{
         height: 150vw;
     }
 
-
     .introduksjon h1{
         font-size: 2rem;
         margin-top: 10rem;
@@ -2843,9 +2833,7 @@ button{
     .allAssignmentsContainer {
         margin: 0rem;
         padding: 0rem;
-
     }
-
 
     .programmerLister img {
         width: 6rem;
@@ -2862,7 +2850,6 @@ button{
     .programmerListerHeading h3 {
         font-size: 1.6rem;
     }
-
 
     .omMegText h2{
         font-size: 1.6rem;
@@ -2895,7 +2882,6 @@ button{
         padding: 0.7rem;
     }
 
-
     button {
         padding: 0.7rem;
         margin-left: 0.5rem;
@@ -2923,8 +2909,6 @@ button{
         border-style: none;
         margin: 0.5rem;
     }
-
-
 }
 
 
