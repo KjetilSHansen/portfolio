@@ -2673,6 +2673,93 @@ button{
         border-radius: 2rem;
     }
 
+    .t8ResearchColorContainer{
+        padding: 8rem 1rem;
+    }
+
+    .t8ResearchContainer {
+        padding: 1.5rem;
+    }
+
+    .t8ResearchIMGOne img {
+        width: 80vw;
+    }
+
+    .t8ResearchIMGTwo img {
+        width: 80vw;
+    }
+
+    .t8IntervjuColorContainer {
+        padding: 1rem;
+    }
+
+    .intervjuMainContainer {
+        padding: 1rem;
+    }
+
+    .t8IntervjuIMGFirstContainer img {
+        width: 37.5vw;
+    }
+
+    .t8IntervjuIMGSecondContainer img {
+        width: 80vw;
+    }
+
+    .emilMainInfo img {
+        width: 70vw;
+    }
+
+    .emilMainInfoUl {
+        padding: 2rem 1.5rem;
+    }
+
+    .emilBio, .emilFrustrasjon, .emilMaal, .emilSituasjon, .emilPlattformer, .t8HiFiText {
+        padding: 2rem 1.5rem;
+    }
+
+    .t7BrukerreiseMoodboardColorContainer, .t8ProblemstillingMVPContainer, .t7LowFiMidFiColorContainer, .t8HiFiColorContainer{
+        padding: 10rem 1rem;
+    }
+
+    .t8BrukertesterContainer{
+        padding: 10rem 1.5rem;
+    }
+
+    .t8BrukerreiseContainer, .t8MoodboardContainer, .t8LowFiContainer, .t8MidFiContainer {
+        padding: 2rem 1.5rem;
+    }
+
+    .t8ProblemstillingMVPContainer p {
+        padding: 1.5rem;
+    }
+
+    .t8LowFiIMG img {
+        height: 75vw;
+    }
+
+    .t8BrukertesterTilbakemeldinger {
+        padding: 2rem;
+    }
+
+    .t8HiFiTextMLink a {
+        padding: 0rem;
+    }
+
+    .hiFiMobileGuitArchive {
+        height: 150vw;
+    }
+
+
+  
+
+
+
+
+
+
+
+
+
     .footerContainer {
         gap: 1rem;
     }
@@ -2690,6 +2777,8 @@ button{
         flex-direction: column;
         gap: 0.5rem;
     }
+
+
 }
 
 
