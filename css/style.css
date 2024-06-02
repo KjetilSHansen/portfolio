@@ -2430,6 +2430,10 @@ button{
     .elliotMockup img {
         height: 20rem;
     }
+    
+    .handlelisteMockup img{
+        height: 20rem;
+    }
 
     .nasjonalmuseetMockup img {
         height: 12rem;
@@ -2748,6 +2752,37 @@ button{
     .hiFiMobileGuitArchive {
         height: 150vw;
     }
+
+
+    .introduksjon h1{
+        font-size: 2rem;
+        margin-top: 10rem;
+    }
+
+    .introduksjon p {
+        margin: 1rem 1.5rem;
+    }
+
+    .guitArchiveMockup img {
+        height: 10rem;
+    }
+
+    .allAssignmentsContainer {
+        margin: 0rem;
+        padding: 0rem;
+
+    }
+
+
+  
+ 
+
+
+    
+
+
+ 
+
 
 
   
