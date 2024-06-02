@@ -2841,6 +2841,22 @@ button{
     }
 
 
+    .omMegText h2{
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+    .omMegSection {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .omMegIMG img {
+        height: 100vw;
+    }
+}
+
+
 
 
 
