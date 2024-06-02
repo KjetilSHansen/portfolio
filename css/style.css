@@ -2410,6 +2410,30 @@ button{
 
 
 
+@media screen and (max-width: 872px){
+
+    .programmer {
+        padding: 12rem 4rem;
+       
+    }
+
+    .programmerPJBText h2, .programmerJHKTText h2{
+        font-size: 2rem;
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* ----- ----- MEDIASCREEN 690PX ----- ----- */
 
 @media screen and (max-width: 690px) {
@@ -2470,6 +2494,32 @@ button{
         gap: 3rem;
     }
 }
+
+
+
+@media screen and (max-width: 530px){
+
+    .programmer {
+        padding: 8rem 2rem;       
+    }
+
+    .programmerLister ul li{
+        font-size: 1rem;
+    }
+
+    .programmerLister img {
+        width: 7rem;
+    }
+
+    .programmerPJB, .programmerJHKT{
+        gap: 6rem;
+        margin-bottom: 10rem;
+    }
+
+}
+
+
+
 
 
 
@@ -2772,6 +2822,24 @@ button{
         padding: 0rem;
 
     }
+
+
+    .programmerLister img {
+        width: 6rem;
+    }
+
+    .programmerLister ul li{
+        font-size: 1rem;
+    }
+
+    .programmerLister ul {
+        justify-content: center;
+    }
+
+    .programmerListerHeading h3 {
+        font-size: 1.6rem;
+    }
+
 
 
 
