@@ -2774,6 +2774,28 @@ button{
     }
 
 
+
+
+
+
+    
+    .inputHL{
+        height: 3.5rem;
+        width: 12rem;
+        font-size: 1.2rem;
+    }
+
+    #plusID{
+        height: 3.5rem;
+    }
+
+    .ulHL li {
+        font-size: 1.2rem;
+        color: var(--orangeOne);
+        margin-top: 2rem;
+    }
+
+
   
  
 
