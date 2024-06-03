@@ -221,7 +221,7 @@ p {
 }
 
 .handlelisteMockup img {
-    height: 23rem;
+    height: 22rem;
     margin-top: 1rem;
 }
 
@@ -233,7 +233,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10rem 30vw 4rem 30vw;
+    margin: 10rem 30vw 0rem 30vw;
     padding: 0.5rem;
     background-color: var(--yellowTwo);
     border-radius: 2rem;
@@ -244,6 +244,31 @@ p {
     color: var(--blackGray);
     text-decoration: none;
 }
+
+
+.flereProsjekterContainer{
+    background-color: var(--yellowTwo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 0rem;
+    margin-top: 5rem;
+}
+
+.assignmentsBottom{
+    margin-right: 10rem;
+}
+
+.flereProsjekterContainer h2, .flereProsjekterContainer a{
+    color: var(--blackGray);
+}
+
+.assignmentsBottomH{
+    margin-right: 4rem;
+
+}
+
 
 
 
@@ -1879,6 +1904,13 @@ button{
     }
 }
 
+@media screen and (max-width: 1342px) {
+    .assignmentsBottom{
+        margin-right: 7rem;
+        display: table-row;
+    }
+}
+
 
 
 
@@ -2487,6 +2519,8 @@ button{
         flex-direction: column;
         gap: 3rem;
     }
+
+
 }
 
 
