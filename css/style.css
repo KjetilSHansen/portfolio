@@ -2570,8 +2570,8 @@ button{
 @media screen and (max-width: 800px){
 
     .cvContainer{
-        margin: 2rem;
-        padding: 2rem;
+        margin: 1rem;
+        padding: 1rem;
     }
 
     .cvGeneralInfo{
