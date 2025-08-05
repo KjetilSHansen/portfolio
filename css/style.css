@@ -1877,12 +1877,105 @@ button{
     color: var(--white);
 }
 
-
 .programmerLister img{
     width: 10rem;
     border-radius: 1rem;
 }
 
+
+
+/* ---------- ---------- ---------- ----------  CV PAGE  ---------- ---------- ---------- ---------- */
+
+.cvContainer{
+    margin: 8rem;
+    padding: 5rem;
+    background-color: var(--blackGray);
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.cvH1{
+    margin: 0;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 5rem;
+}
+
+.cvH2{
+    color: var(--yellowOne);
+}
+
+.cvGeneralInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cvList{
+    color: var(--lightGray);
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.cvGeneralInfo img{
+    width: 15rem;
+    height: 100%;
+}
+
+.cvBoxes{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.cvBoxes h2{
+    display: flex;
+    justify-content: left;
+}
+
+.cvBoxes p{
+    color: var(--lightGray);
+}
+
+.cvExperience{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cvExperience h3{
+    color: var(--lightGray);
+    font-weight: 500;
+    display: flex;
+    text-align: left;
+}
+
+.experienceDate{
+    margin-top: 2.1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.cvExperience .experienceDate .experienceDateTwo{
+    width: 14rem;
+}
+
+.experienceDateTwo{
+    margin-top: 2.3rem;
+}
+
+.experience{
+    width: 70%;
+}
+
+.fontWeight400{
+    font-weight: 400;
+}
 
 
 
@@ -1900,9 +1993,12 @@ button{
     .t7PersonasContainer {
         margin: 0rem;
         padding: 2rem;
-
     }
 }
+
+
+
+/* ----- ----- MEDIASCREEN 1342PX ----- ----- */
 
 @media screen and (max-width: 1342px) {
     .assignmentsBottom{
@@ -1972,7 +2068,6 @@ button{
 
     .t8ResearchTextTwo {
         align-items: center;
-
     }
 
     .t8ResearchIMGOne img {
@@ -2036,7 +2131,6 @@ button{
 @media screen and (max-width: 1103px) {
     .allAssignmentsContainer {
         justify-content: center;
-
     }
 }
 
@@ -2440,6 +2534,11 @@ button{
     .hiFiTogetherGuiArchive {
         height: 65vw;
     }
+
+    .cvContainer{
+        margin: 2rem;
+        padding: 5rem;
+    }
 }
 
 
@@ -2456,7 +2555,62 @@ button{
         font-size: 2rem;
         text-align: left;
     }
+
+    .cvH1{
+        font-size: 3rem;
+    }
 }
+
+
+
+
+
+/* ----- ----- MEDIASCREEN 800PX ----- ----- */
+
+@media screen and (max-width: 800px){
+
+    .cvContainer{
+        margin: 2rem;
+        padding: 2rem;
+    }
+
+    .cvGeneralInfo{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cvGeneralInfo img{
+        width: 100%;
+        max-width: 30%;
+    }
+
+    .cvList{
+        font-size: 1rem;
+    }
+
+    .cvBoxes p{
+        font-size: 1rem;
+    }
+
+    .cvH2{
+        font-size: 1.6rem;
+    }
+
+    .cvBoxes h3{
+        font-size: 1.3rem;
+    }
+
+    .experience{
+        width: 55%;
+    }
+
+    .experienceDateTwo{
+        margin-top: 4rem;
+    }
+}
+
+
+
 
 
 
@@ -2520,7 +2674,10 @@ button{
         gap: 3rem;
     }
 
-
+    .cvGeneralInfo img{
+        width: 10rem;
+        height: 100%;
+    }
 }
 
 
@@ -2565,6 +2722,10 @@ button{
 
     .kontaktinformasjonText {
         margin: 1rem;
+    }
+
+    .cvGeneralInfo img{
+        display: none;
     }
 }
 
@@ -2943,6 +3104,8 @@ button{
         border-style: none;
         margin: 0.5rem;
     }
+
+
 }
 
 
