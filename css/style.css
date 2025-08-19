@@ -1739,7 +1739,7 @@ button{
 .programmerPJB{
     display: flex;
     flex-direction: column;
-    gap: 10rem;
+    gap: 6rem;
     margin-bottom: 15rem;
 }
 
@@ -1769,7 +1769,7 @@ button{
 .programmerJHKT{
     display: flex;
     flex-direction: column;
-    gap: 10rem;
+    gap: 6rem;
     margin-bottom: 15rem;
 }
 
